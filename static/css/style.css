@@ -355,63 +355,80 @@ body {
 .form-group input,
 .form-group select {
     width: 100%;
-    padding: 12px 15px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 14px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     font-size: 1em;
-    transition: all 0.3s ease;
-    background-color: rgba(255, 255, 255, 0.95);
-    color: #2C2C2C;
+    transition: all 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #E8E8E8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .form-group input:focus,
 .form-group select:focus {
     outline: none;
-    border-color: var(--orange-basketball);
-    box-shadow: 0 0 0 3px rgba(255, 140, 0, 0.3);
-    background-color: white;
+    border-color: rgba(255, 140, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 0 2px rgba(255, 140, 0, 0.2);
 }
 
 .user-select-wrapper {
     position: relative;
+    width: 100%;
+}
+
+.user-select-wrapper::after {
+    content: '▼';
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.6);
+    pointer-events: none;
+    font-size: 0.8em;
 }
 
 .user-select {
-    max-height: 250px;
-    overflow-y: auto;
     padding-right: 40px;
+    cursor: pointer;
 }
 
 .user-select option {
     padding: 12px 15px;
-    background-color: white;
-    color: #2C2C2C;
+    background-color: rgba(30, 30, 35, 0.98);
+    color: #E8E8E8;
     font-size: 0.95em;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border: none;
 }
 
-.user-select option:hover {
-    background-color: #f0f0f0;
+.user-select option:hover,
+.user-select option:checked {
+    background-color: rgba(255, 140, 0, 0.2);
+    color: #FF8C00;
 }
 
 .user-select option[value=""] {
-    color: #888;
-    font-style: italic;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.user-count-badge {
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 140, 0, 0.2);
-    color: #FF8C00;
-    padding: 4px 10px;
-    border-radius: 12px;
-    font-size: 0.75em;
-    font-weight: 600;
-    pointer-events: none;
-    border: 1px solid rgba(255, 140, 0, 0.3);
+/* Mobil uyumluluk */
+@media (max-width: 768px) {
+    .form-group input,
+    .form-group select {
+        padding: 16px;
+        font-size: 16px; /* iOS zoom önleme */
+    }
+    
+    .user-select {
+        font-size: 16px;
+    }
 }
 
 .btn-login,

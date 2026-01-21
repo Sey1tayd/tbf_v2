@@ -29,30 +29,25 @@
             <form method="POST" class="login-form">
                 {% csrf_token %}
                 <div class="form-group">
-                    <label for="username">👤 Kullanıcı Seçiniz</label>
                     <div class="user-select-wrapper">
                         <select id="username" name="username" required autofocus class="user-select">
-                            <option value="">-- Lütfen bir kullanıcı seçiniz --</option>
+                            <option value="">Kullanıcı seçiniz...</option>
                             {% for user in users %}
                                 <option value="{{ user.username }}">
-                                    {{ user.first_name }} {{ user.last_name }}{% if user.is_staff or user.is_superuser %} 👑 Admin{% endif %}
+                                    {{ user.first_name }} {{ user.last_name }}{% if user.is_staff or user.is_superuser %} - Admin{% endif %}
                                 </option>
                             {% empty %}
                                 <option value="" disabled>Henüz kullanıcı bulunmuyor</option>
                             {% endfor %}
                         </select>
-                        {% if users %}
-                            <div class="user-count-badge">{{ users|length }} kullanıcı</div>
-                        {% endif %}
                     </div>
                 </div>
                 
                 <div class="form-group" id="password-group" style="display: none;">
-                    <label for="password">🔒 Şifre</label>
-                    <input type="password" id="password" name="password" placeholder="Admin kullanıcılar için şifre gerekli" class="form-control">
+                    <input type="password" id="password" name="password" placeholder="Şifre giriniz" class="form-control">
                 </div>
                 
-                <button type="submit" class="btn-login">🚀 Giriş Yap</button>
+                <button type="submit" class="btn-login">Giriş Yap</button>
             </form>
         </div>
     </div>
