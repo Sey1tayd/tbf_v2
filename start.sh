@@ -11,7 +11,7 @@ python manage.py migrate --noinput 2>&1 | grep -v "objects imported automaticall
 echo "✅ Migrations completed!"
 
 echo ""
-echo "👥 Step 2/3: Checking and creating users if needed..."
+echo "👥 Step 2/4: Checking and creating users if needed..."
 USER_COUNT=$(python manage.py shell -c "from accounts.models import CustomUser; print(CustomUser.objects.count())" 2>&1 | grep -E "^[0-9]+$" || echo "0")
 EXPECTED_USERS=101  # 100 normal user + 1 admin
 
@@ -29,7 +29,12 @@ else
 fi
 
 echo ""
+echo "📚 Step 3/4: Loading questions from questions.json..."
+python manage.py load_questions 2>&1 | grep -v "objects imported automatically" || true
+echo "✅ Questions loaded!"
+
+echo ""
 echo "=========================================="
-echo "🌟 Step 3/3: Starting Gunicorn server..."
+echo "🌟 Step 4/4: Starting Gunicorn server..."
 echo "=========================================="
 exec gunicorn tbf_panel.wsgi --bind 0.0.0.0:${PORT:-8080} --log-file -
