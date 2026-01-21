@@ -1,1 +1,1 @@
-web: gunicorn tbf_panel.wsgi --log-file -
+web: gunicorn tbf_panel.wsgi --bind 0.0.0.0:$PORT --log-file -

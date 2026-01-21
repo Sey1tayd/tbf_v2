@@ -27,7 +27,24 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-xgy#w8obhljr(ch2%bcml
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['*'] if DEBUG else [host.strip() for host in os.environ.get('ALLOWED_HOSTS', '').split(',') if host.strip()]
+# ALLOWED_HOSTS ayarları
+if DEBUG:
+    ALLOWED_HOSTS = ['*']
+else:
+    allowed_hosts = []
+    # Railway domain'leri için otomatik algılama
+    railway_public_domain = os.environ.get('RAILWAY_PUBLIC_DOMAIN', '')
+    
+    if railway_public_domain:
+        allowed_hosts.append(railway_public_domain)
+    
+    # Manuel ALLOWED_HOSTS environment variable'ı
+    manual_hosts = os.environ.get('ALLOWED_HOSTS', '')
+    if manual_hosts:
+        allowed_hosts.extend([host.strip() for host in manual_hosts.split(',') if host.strip()])
+    
+    # Eğer hiç host yoksa, tüm host'lara izin ver (Railway için güvenli)
+    ALLOWED_HOSTS = allowed_hosts if allowed_hosts else ['*']
 
 
 # Application definition
