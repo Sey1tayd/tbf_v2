@@ -7,7 +7,7 @@ from django.http import JsonResponse
 from django.views.decorators.http import require_http_methods
 from django.views.decorators.csrf import csrf_exempt
 import json
-from .models import CustomUser, Topic, Question, UserAnswer
+from .models import CustomUser, Topic, Question, UserAnswer, Explanation
 
 
 def login_view(request):
@@ -309,6 +309,9 @@ def api_get_question(request, question_id):
         # Aynı konudaki diğer soruları bul
         topic_questions = Question.objects.filter(topic=question.topic).order_by('order', 'numara')
         
+        # Aynı konudaki açıklamaları getir
+        topic_explanations = Explanation.objects.filter(topic=question.topic).order_by('numara')
+        
         response_data = {
             'question': {
                 'id': question.id,
@@ -330,6 +333,14 @@ def api_get_question(request, question_id):
                 'answered_at': user_answer.answered_at.isoformat() if user_answer else None
             },
             'yorum': question.yorum if user_answer else None,
+            'aciklamalar': [
+                {
+                    'numara': exp.numara,
+                    'metin': exp.metin,
+                    'sayfa': exp.sayfa
+                }
+                for exp in topic_explanations
+            ] if user_answer else [],
             'navigation': {
                 'prev_question_id': prev_question_id,
                 'next_question_id': next_question_id,

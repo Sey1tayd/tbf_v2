@@ -8,6 +8,32 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <style>
         /* Sorular sayfası için özel stil - Sayfa renk paleti ile uyumlu */
+        .dashboard-container {
+            max-width: 100%;
+            padding-top: 0;
+        }
+        
+        .dashboard-box {
+            background: transparent !important;
+            box-shadow: none !important;
+            border: none !important;
+            padding: 0 !important;
+        }
+        
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            background: rgba(30, 30, 35, 0.95) !important;
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        
+        .dashboard-content {
+            padding-top: 20px;
+        }
+        
         .questions-container {
             display: flex;
             min-height: calc(100vh - 120px);
@@ -433,6 +459,48 @@
             font-size: 15px;
         }
         
+        .question-explanations {
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(70, 130, 180, 0.15);
+            border: 1px solid rgba(70, 130, 180, 0.3);
+            border-radius: 12px;
+        }
+        
+        .explanations-header {
+            font-weight: 700;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(70, 130, 180, 0.3);
+        }
+        
+        .explanation-item {
+            margin-bottom: 16px;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 4px solid #87CEEB;
+            border-radius: 8px;
+        }
+        
+        .explanation-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .explanation-number {
+            font-weight: 700;
+            font-size: 14px;
+            color: #87CEEB;
+            margin-bottom: 8px;
+        }
+        
+        .explanation-text {
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.7;
+            font-size: 15px;
+        }
+        
         .mobile-sidebar-toggle {
             display: none;
             position: fixed;
@@ -774,7 +842,18 @@
                 ${showFeedback ? `
                     <div class="question-feedback show ${userAnswer.is_correct ? 'correct' : 'wrong'}">
                         ${userAnswer.is_correct ? '✓ Doğru!' : '✗ Yanlış!'}
-                        ${data.yorum ? `<div class="question-comment">${escapeHtml(data.yorum)}</div>` : ''}
+                        ${data.yorum ? `<div class="question-comment"><strong>Yorum:</strong> ${escapeHtml(data.yorum)}</div>` : ''}
+                        ${data.aciklamalar && data.aciklamalar.length > 0 ? `
+                            <div class="question-explanations">
+                                <div class="explanations-header">📚 İlgili Açıklamalar:</div>
+                                ${data.aciklamalar.map(exp => `
+                                    <div class="explanation-item">
+                                        <div class="explanation-number">${escapeHtml(exp.numara)}</div>
+                                        <div class="explanation-text">${escapeHtml(exp.metin)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        ` : ''}
                     </div>
                 ` : ''}
                 
@@ -862,8 +941,9 @@
                     const questionResponse = await fetch(`{% url "api_get_question" 0 %}`.replace('0', currentQuestionId));
                     const questionData = await questionResponse.json();
                     
-                    // Add yorum to question data
+                    // Add yorum and aciklamalar to question data
                     questionData.yorum = data.yorum;
+                    questionData.aciklamalar = data.aciklamalar || [];
                     
                     renderQuestion(questionData);
                     
