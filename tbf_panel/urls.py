@@ -31,8 +31,14 @@ urlpatterns = [
     path('', RedirectView.as_view(url='/accounts/login/', permanent=False), name='home'),
 ]
 
+# Media files serving (DEBUG ve production için)
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-    # STATIC_URL için Django'nun staticfiles app'i zaten hallediyor
-    # Sadece MEDIA_URL'i manuel olarak serve ediyoruz
+else:
+    # Production'da WhiteNoise ile media dosyalarını serve et
+    from django.views.static import serve
+    from django.urls import re_path
+    urlpatterns += [
+        re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+    ]
 
