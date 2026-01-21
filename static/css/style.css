@@ -943,8 +943,8 @@ body {
     
     .topbar-menu {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: nowrap;
         width: 100%;
         margin-top: 10px;
         padding-top: 10px;
@@ -954,6 +954,8 @@ body {
         transform: translateX(-10px);
         overflow: hidden;
         transition: opacity 0.4s ease, max-height 0.4s ease, transform 0.4s ease;
+        box-sizing: border-box;
+        gap: 8px;
     }
     
     .topbar-menu.active {
@@ -969,7 +971,10 @@ body {
     }
     
     .topbar-link {
-        flex: 1;
+        width: 100%;
+        flex: 1 1 100%;
+        min-width: 0;
+        box-sizing: border-box;
         min-width: 0;
         justify-content: center;
         padding: 10px 8px;
