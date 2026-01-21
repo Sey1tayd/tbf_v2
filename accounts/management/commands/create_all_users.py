@@ -200,7 +200,7 @@ class Command(BaseCommand):
                 superuser = CustomUser.objects.create_superuser(
                     username='S3Y1T',
                     password='Aydin2580',
-                    first_name='Seyit',
+                    first_name='S3Y1T',
                     last_name='Aydin'
                 )
                 self.stdout.write(self.style.SUCCESS("Superuser 'S3Y1T' oluşturuldu! (Şifre: Aydin2580)"))

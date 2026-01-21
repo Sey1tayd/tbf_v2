@@ -70,6 +70,19 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# CSRF ayarları
+CSRF_COOKIE_SECURE = not DEBUG  # Production'da HTTPS için
+CSRF_COOKIE_HTTPONLY = False
+CSRF_TRUSTED_ORIGINS = []
+if not DEBUG:
+    # Production'da Railway domain'lerini ekle
+    railway_domain = os.environ.get('RAILWAY_PUBLIC_DOMAIN', '')
+    if railway_domain:
+        CSRF_TRUSTED_ORIGINS.append(f'https://{railway_domain}')
+    manual_origins = os.environ.get('CSRF_TRUSTED_ORIGINS', '')
+    if manual_origins:
+        CSRF_TRUSTED_ORIGINS.extend([origin.strip() for origin in manual_origins.split(',') if origin.strip()])
+
 ROOT_URLCONF = 'tbf_panel.urls'
 
 TEMPLATES = [

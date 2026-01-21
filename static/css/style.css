@@ -372,15 +372,46 @@ body {
     background-color: white;
 }
 
+.user-select-wrapper {
+    position: relative;
+}
+
 .user-select {
-    max-height: 200px;
+    max-height: 250px;
     overflow-y: auto;
+    padding-right: 40px;
 }
 
 .user-select option {
-    padding: 10px;
+    padding: 12px 15px;
     background-color: white;
     color: #2C2C2C;
+    font-size: 0.95em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.user-select option:hover {
+    background-color: #f0f0f0;
+}
+
+.user-select option[value=""] {
+    color: #888;
+    font-style: italic;
+}
+
+.user-count-badge {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 140, 0, 0.2);
+    color: #FF8C00;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    pointer-events: none;
+    border: 1px solid rgba(255, 140, 0, 0.3);
 }
 
 .btn-login,
