@@ -26,7 +26,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 /staticfiles/
-/media/
+# /media/ - Railway'de PDF dosyalarına ihtiyacımız var, ignore etmiyoruz
 
 # Environment variables
 .env
