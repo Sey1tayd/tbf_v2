@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa - Basketbol Oyun Kuralları ve Yorumları</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-box">
+            <div class="topbar">
+                <div class="topbar-left">
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Menü">
+                        ☰
+                    </button>
+                    <div class="topbar-title-wrapper">
+                        <div class="topbar-title">Ana Sayfa</div>
+                        <div class="topbar-subtitle">{{ user.first_name }} {{ user.last_name }}</div>
+                    </div>
+                </div>
+                <div class="topbar-right">
+                    <div class="topbar-menu" id="topbar-menu">
+                        <a class="topbar-link active" href="{% url 'dashboard' %}">Ana Sayfa</a>
+                        <a class="topbar-link" href="{% url 'pdfs' %}">PDF'ler</a>
+                        <a class="topbar-link" href="{% url 'ekolarka_sorular' %}">Ekolarka Yorum Soruları</a>
+                        <a class="topbar-link" href="{% url 'gunluk_soru' %}">Günlük Soru</a>
+                        <a class="topbar-link danger" href="{% url 'logout' %}">Çıkış</a>
+                    </div>
+                </div>
+            </div>
+
+            {% if messages %}
+                <div class="messages">
+                    {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <div class="dashboard-content">
+                <div class="admin-cards">
+                    <a class="admin-card" href="{% url 'pdfs' %}">
+                        <div class="card-icon">📄</div>
+                        <div class="card-title">PDF'ler</div>
+                        <div class="card-desc">Basketbol oyun kuralları ve yorumları</div>
+                    </a>
+
+                    <a class="admin-card" href="{% url 'ekolarka_sorular' %}">
+                        <div class="card-icon">❓</div>
+                        <div class="card-title">Ekolarka Yorum Soruları</div>
+                        <div class="card-desc">Yakında eklenecek</div>
+                    </a>
+
+                    <a class="admin-card" href="{% url 'gunluk_soru' %}">
+                        <div class="card-icon">📅</div>
+                        <div class="card-title">Günlük Soru</div>
+                        <div class="card-desc">Yakında eklenecek</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Hamburger menü toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('mobile-menu-toggle');
+            const menu = document.getElementById('topbar-menu');
+            
+            if (menuToggle && menu) {
+                menuToggle.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const isActive = menu.classList.contains('active');
+                    
+                    if (isActive) {
+                        // Menüyü kapat
+                        menu.classList.remove('active');
+                        menuToggle.classList.remove('active');
+                    } else {
+                        // Menüyü aç
+                        menu.classList.add('active');
+                        menuToggle.classList.add('active');
+                    }
+                });
+                
+                // Menü dışına tıklanınca kapat
+                document.addEventListener('click', function(event) {
+                    if (!menuToggle.contains(event.target) && !menu.contains(event.target)) {
+                        menu.classList.remove('active');
+                        menuToggle.classList.remove('active');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

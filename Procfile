@@ -1,0 +1,1 @@
+web: gunicorn tbf_panel.wsgi --log-file -

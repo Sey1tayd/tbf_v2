@@ -1,0 +1,218 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcı İşlemleri - Basketbol Oyun Kuralları ve Yorumları</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-box">
+            <div class="topbar">
+                <div class="topbar-left">
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Menü">
+                        ☰
+                    </button>
+                    <div class="topbar-title-wrapper">
+                        <div class="topbar-title">Kullanıcı İşlemleri</div>
+                        <div class="topbar-subtitle">{{ user.first_name }} {{ user.last_name }}</div>
+                    </div>
+                </div>
+                <div class="topbar-right">
+                    <div class="topbar-menu" id="topbar-menu">
+                        <a class="topbar-link" href="{% url 'admin_home' %}">Ana Sayfa</a>
+                        <a class="topbar-link active" href="{% url 'user_management' %}">Kullanıcı İşlemleri</a>
+                        <a class="topbar-link danger" href="{% url 'logout' %}">Çıkış</a>
+                    </div>
+                </div>
+            </div>
+
+            {% if messages %}
+                <div class="messages">
+                    {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <div class="dashboard-content">
+                <div class="admin-panel">
+                    <!-- Kullanıcı Ekleme Formu -->
+                    <div class="admin-section">
+                        <h3>Yeni Kullanıcı Ekle</h3>
+                        <form method="POST" action="{% url 'add_user' %}" class="add-user-form">
+                            {% csrf_token %}
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="first_name">İsim</label>
+                                    <input type="text" id="first_name" name="first_name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="last_name">Soyisim</label>
+                                    <input type="text" id="last_name" name="last_name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Kullanıcı Adı <span style="color: #B0C4DE; font-weight: normal; font-size: 0.9em;">(Boş bırakılırsa otomatik oluşturulur)</span></label>
+                                <input type="text" id="username" name="username" placeholder="Örn: ahmet.yilmaz">
+                            </div>
+                            <div class="admin-toggle">
+                                <div class="admin-toggle-text">
+                                    <div class="admin-toggle-title">Admin yetkisi ver</div>
+                                    <div class="admin-toggle-desc">Bu kullanıcı yönetim paneline erişebilir.</div>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" id="make_admin" name="make_admin">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <button type="submit" class="btn-add">Kullanıcı Ekle</button>
+                        </form>
+                    </div>
+
+                    <!-- Kullanıcı Listesi -->
+                    <div class="admin-section">
+                        <h3>Kullanıcılar ({{ all_users.count }})</h3>
+                        <div class="users-table-container">
+                            <!-- Desktop Table -->
+                            <table class="users-table">
+                                <thead>
+                                    <tr>
+                                        <th>İsim</th>
+                                        <th>Soyisim</th>
+                                        <th>Kullanıcı Adı</th>
+                                        <th>İşlem</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for u in all_users %}
+                                        <tr>
+                                            <td>{{ u.first_name }}</td>
+                                            <td>{{ u.last_name }}</td>
+                                            <td>{{ u.username }}</td>
+                                            <td>
+                                                <form method="POST" action="{% url 'delete_user' u.id %}" style="display: inline;" onsubmit="return confirm('{{ u.first_name }} {{ u.last_name }} kullanıcısını silmek istediğinize emin misiniz?');">
+                                                    {% csrf_token %}
+                                                    <button type="submit" class="btn-delete">Sil</button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    {% empty %}
+                                        <tr>
+                                            <td colspan="4" class="no-data">Henüz kullanıcı bulunmamaktadır.</td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                            
+                            <!-- Mobile Card View -->
+                            <div class="users-table-mobile">
+                                {% for u in all_users %}
+                                    <div class="user-card-mobile">
+                                        <div class="user-card-mobile-header">
+                                            <div class="user-card-mobile-info">
+                                                <div class="user-card-mobile-name">{{ u.first_name }} {{ u.last_name }}</div>
+                                                <div class="user-card-mobile-username">@{{ u.username }}</div>
+                                            </div>
+                                            <div class="user-card-mobile-actions">
+                                                <form method="POST" action="{% url 'delete_user' u.id %}" style="display: inline;" onsubmit="return confirm('{{ u.first_name }} {{ u.last_name }} kullanıcısını silmek istediğinize emin misiniz?');">
+                                                    {% csrf_token %}
+                                                    <button type="submit" class="btn-delete">Sil</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% empty %}
+                                    <div class="user-card-mobile">
+                                        <div class="no-data">Henüz kullanıcı bulunmamaktadır.</div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Admin Kullanıcılar -->
+                    {% if admin_users %}
+                        <div class="admin-section">
+                            <h3>Admin Kullanıcılar ({{ admin_users.count }})</h3>
+                            <div class="users-table-container">
+                                <!-- Desktop Table -->
+                                <table class="users-table">
+                                    <thead>
+                                        <tr>
+                                            <th>İsim</th>
+                                            <th>Soyisim</th>
+                                            <th>Kullanıcı Adı</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for u in admin_users %}
+                                            <tr>
+                                                <td>{{ u.first_name }}</td>
+                                                <td>{{ u.last_name }}</td>
+                                                <td>{{ u.username }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                                
+                                <!-- Mobile Card View -->
+                                <div class="users-table-mobile">
+                                    {% for u in admin_users %}
+                                        <div class="user-card-mobile">
+                                            <div class="user-card-mobile-header">
+                                                <div class="user-card-mobile-info">
+                                                    <div class="user-card-mobile-name">{{ u.first_name }} {{ u.last_name }}</div>
+                                                    <div class="user-card-mobile-username">@{{ u.username }}</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Hamburger menü toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('mobile-menu-toggle');
+            const menu = document.getElementById('topbar-menu');
+            
+            if (menuToggle && menu) {
+                menuToggle.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const isActive = menu.classList.contains('active');
+                    
+                    if (isActive) {
+                        // Menüyü kapat
+                        menu.classList.remove('active');
+                        menuToggle.classList.remove('active');
+                    } else {
+                        // Menüyü aç
+                        menu.classList.add('active');
+                        menuToggle.classList.add('active');
+                    }
+                });
+                
+                // Menü dışına tıklanınca kapat
+                document.addEventListener('click', function(event) {
+                    if (!menuToggle.contains(event.target) && !menu.contains(event.target)) {
+                        menu.classList.remove('active');
+                        menuToggle.classList.remove('active');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

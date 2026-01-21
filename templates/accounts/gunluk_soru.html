@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Günlük Soru - Basketbol Oyun Kuralları ve Yorumları</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-box">
+            <div class="topbar">
+                <div class="topbar-left">
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Menü">
+                        ☰
+                    </button>
+                    <div class="topbar-title-wrapper">
+                        <div class="topbar-title">Günlük Soru</div>
+                        <div class="topbar-subtitle">{{ user.first_name }} {{ user.last_name }}</div>
+                    </div>
+                </div>
+                <div class="topbar-right">
+                    <div class="topbar-menu" id="topbar-menu">
+                        <a class="topbar-link" href="{% url 'dashboard' %}">Ana Sayfa</a>
+                        <a class="topbar-link" href="{% url 'pdfs' %}">PDF'ler</a>
+                        <a class="topbar-link" href="{% url 'ekolarka_sorular' %}">Ekolarka Yorum Soruları</a>
+                        <a class="topbar-link active" href="{% url 'gunluk_soru' %}">Günlük Soru</a>
+                        <a class="topbar-link danger" href="{% url 'logout' %}">Çıkış</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-content">
+                <div class="admin-panel">
+                    <h2>Günlük Soru</h2>
+                    <div class="placeholder-section">
+                        <p>Bu bölüm yakında eklenecektir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Hamburger menü toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('mobile-menu-toggle');
+            const menu = document.getElementById('topbar-menu');
+            
+            if (menuToggle && menu) {
+                menuToggle.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const isActive = menu.classList.contains('active');
+                    
+                    if (isActive) {
+                        // Menüyü kapat
+                        menu.classList.remove('active');
+                        menuToggle.classList.remove('active');
+                    } else {
+                        // Menüyü aç
+                        menu.classList.add('active');
+                        menuToggle.classList.add('active');
+                    }
+                });
+                
+                // Menü dışına tıklanınca kapat
+                document.addEventListener('click', function(event) {
+                    if (!menuToggle.contains(event.target) && !menu.contains(event.target)) {
+                        menu.classList.remove('active');
+                        menuToggle.classList.remove('active');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

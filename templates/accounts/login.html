@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketbol Oyun Kuralları ve Yorumları</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="header">
+                <h1>Basketbol Oyun Kuralları ve Yorumları</h1>
+            </div>
+            
+            {% if messages %}
+                {% for message in messages %}
+                    {% if message.tags == 'error' %}
+                        <div class="messages">
+                            <div class="alert alert-{{ message.tags }}">
+                                {{ message }}
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            
+            <form method="POST" class="login-form">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="username">Kullanıcı Seçiniz</label>
+                    <select id="username" name="username" required autofocus class="user-select">
+                        <option value="">-- Kullanıcı Seçiniz --</option>
+                        {% for user in users %}
+                            <option value="{{ user.username }}">{{ user.first_name }} {{ user.last_name }} ({{ user.username }}){% if user.is_staff or user.is_superuser %} - Admin{% endif %}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="form-group" id="password-group" style="display: none;">
+                    <label for="password">Şifre</label>
+                    <input type="password" id="password" name="password" placeholder="Admin kullanıcılar için şifre gerekli">
+                </div>
+                
+                <button type="submit" class="btn-login">Giriş Yap</button>
+            </form>
+        </div>
+    </div>
+    
+    <script>
+        // Admin kullanıcı listesi
+        const adminUsernames = [
+            {% for username in admin_usernames %}
+                '{{ username }}'{% if not forloop.last %},{% endif %}
+            {% endfor %}
+        ];
+        
+        // Dropdown değiştiğinde
+        document.getElementById('username').addEventListener('change', function() {
+            const selectedUsername = this.value;
+            const passwordGroup = document.getElementById('password-group');
+            const passwordInput = document.getElementById('password');
+            
+            if (selectedUsername && adminUsernames.includes(selectedUsername)) {
+                // Admin kullanıcı seçildi - şifre alanını göster
+                passwordGroup.style.display = 'block';
+                passwordInput.required = true;
+            } else {
+                // Normal kullanıcı seçildi - şifre alanını gizle
+                passwordGroup.style.display = 'none';
+                passwordInput.required = false;
+                passwordInput.value = '';
+            }
+        });
+    </script>
+</body>
+</html>
