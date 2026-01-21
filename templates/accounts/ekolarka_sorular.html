@@ -6,6 +6,334 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ekolarka Yorum Soruları - Basketbol Oyun Kuralları ve Yorumları</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        .questions-container {
+            display: flex;
+            height: calc(100vh - 80px);
+            gap: 20px;
+        }
+        
+        .questions-sidebar {
+            width: 300px;
+            background: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        
+        .questions-main {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        
+        .topic-section {
+            margin-bottom: 20px;
+        }
+        
+        .topic-header {
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .topic-header:hover {
+            background: #dee2e6;
+        }
+        
+        .topic-header.active {
+            background: #007bff;
+            color: white;
+        }
+        
+        .topic-questions {
+            padding-left: 20px;
+            display: none;
+        }
+        
+        .topic-questions.active {
+            display: block;
+        }
+        
+        .question-item {
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: background 0.2s;
+        }
+        
+        .question-item:hover {
+            background: #e9ecef;
+        }
+        
+        .question-item.current {
+            background: #007bff;
+            color: white;
+        }
+        
+        .question-item.answered {
+            font-weight: 500;
+        }
+        
+        .question-status {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: inline-block;
+            flex-shrink: 0;
+        }
+        
+        .question-status.pending {
+            background: #dee2e6;
+            border: 2px solid #adb5bd;
+        }
+        
+        .question-status.correct {
+            background: #28a745;
+        }
+        
+        .question-status.wrong {
+            background: #dc3545;
+        }
+        
+        .question-content {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .question-header {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        .question-number {
+            font-size: 18px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 5px;
+        }
+        
+        .question-topic {
+            font-size: 14px;
+            color: #6c757d;
+        }
+        
+        .question-situation {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-style: italic;
+            color: #495057;
+        }
+        
+        .question-text {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        
+        .question-options {
+            margin-bottom: 25px;
+        }
+        
+        .option-item {
+            padding: 15px;
+            margin-bottom: 12px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: white;
+        }
+        
+        .option-item:hover {
+            border-color: #007bff;
+            background: #f0f7ff;
+        }
+        
+        .option-item.selected {
+            border-color: #007bff;
+            background: #e7f3ff;
+        }
+        
+        .option-item.correct {
+            border-color: #28a745;
+            background: #d4edda;
+        }
+        
+        .option-item.wrong {
+            border-color: #dc3545;
+            background: #f8d7da;
+        }
+        
+        .option-item.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        
+        .question-actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+        
+        .btn-primary:hover:not(:disabled) {
+            background: #0056b3;
+        }
+        
+        .btn-primary:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+        
+        .question-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 2px solid #e9ecef;
+        }
+        
+        .question-feedback {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        .question-feedback.show {
+            display: block;
+        }
+        
+        .question-feedback.correct {
+            background: #d4edda;
+            border: 1px solid #28a745;
+            color: #155724;
+        }
+        
+        .question-feedback.wrong {
+            background: #f8d7da;
+            border: 1px solid #dc3545;
+            color: #721c24;
+        }
+        
+        .question-comment {
+            margin-top: 15px;
+            padding: 15px;
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 5px;
+            color: #856404;
+        }
+        
+        .progress-info {
+            padding: 15px;
+            background: #e7f3ff;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background: #dee2e6;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: #007bff;
+            transition: width 0.3s;
+        }
+        
+        .mobile-sidebar-toggle {
+            display: none;
+            position: fixed;
+            top: 70px;
+            left: 10px;
+            z-index: 1000;
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        
+        @media (max-width: 768px) {
+            .questions-container {
+                flex-direction: column;
+            }
+            
+            .questions-sidebar {
+                position: fixed;
+                left: -300px;
+                top: 80px;
+                height: calc(100vh - 80px);
+                z-index: 999;
+                transition: left 0.3s;
+                box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+            }
+            
+            .questions-sidebar.active {
+                left: 0;
+            }
+            
+            .questions-main {
+                width: 100%;
+            }
+            
+            .mobile-sidebar-toggle {
+                display: block;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="dashboard-container">
@@ -32,10 +360,28 @@
             </div>
 
             <div class="dashboard-content">
-                <div class="admin-panel">
-                    <h2>Ekolarka Yorum Soruları</h2>
-                    <div class="placeholder-section">
-                        <p>Bu bölüm yakında eklenecektir.</p>
+                <button class="mobile-sidebar-toggle" id="mobile-sidebar-toggle">☰ Menü</button>
+                
+                <div class="questions-container">
+                    <div class="questions-sidebar" id="questions-sidebar">
+                        <div class="progress-info">
+                            <div id="progress-text">Yükleniyor...</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        
+                        <div id="topics-list">
+                            <!-- Topics will be loaded here -->
+                        </div>
+                    </div>
+                    
+                    <div class="questions-main">
+                        <div class="question-content" id="question-content">
+                            <div style="text-align: center; padding: 50px;">
+                                <p>Yükleniyor...</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -43,6 +389,346 @@
     </div>
     
     <script>
+        let currentQuestionId = null;
+        let currentTopicId = null;
+        let topicsData = [];
+        let userAnswers = {};
+        let selectedOption = null;
+        
+        // Load initial data
+        async function loadInitialData() {
+            try {
+                // Load topics
+                const topicsResponse = await fetch('{% url "api_get_topics" %}');
+                const topicsResult = await topicsResponse.json();
+                topicsData = topicsResult.topics;
+                
+                // Find first unanswered question or first question
+                let firstQuestionId = null;
+                let firstUnansweredId = null;
+                
+                for (const topic of topicsData) {
+                    for (const question of topic.questions) {
+                        // Store first question as fallback
+                        if (!firstQuestionId) {
+                            firstQuestionId = question.id;
+                        }
+                        // Find first unanswered question
+                        if (!question.answered && !firstUnansweredId) {
+                            firstUnansweredId = question.id;
+                        }
+                    }
+                }
+                
+                // Use first unanswered question if exists, otherwise use first question
+                firstQuestionId = firstUnansweredId || firstQuestionId;
+                
+                // Load progress
+                await loadProgress();
+                
+                // Render topics
+                renderTopics();
+                
+                // Load first question
+                if (firstQuestionId) {
+                    loadQuestion(firstQuestionId);
+                }
+            } catch (error) {
+                console.error('Error loading initial data:', error);
+            }
+        }
+        
+        // Load progress
+        async function loadProgress() {
+            try {
+                const response = await fetch('{% url "api_get_progress" %}');
+                const data = await response.json();
+                
+                const progressText = document.getElementById('progress-text');
+                const progressFill = document.getElementById('progress-fill');
+                
+                progressText.textContent = `${data.answered_questions} / ${data.total_questions} soru cevaplandı (${data.progress_percentage}%)`;
+                progressFill.style.width = `${data.progress_percentage}%`;
+            } catch (error) {
+                console.error('Error loading progress:', error);
+            }
+        }
+        
+        // Render topics
+        function renderTopics() {
+            const topicsList = document.getElementById('topics-list');
+            topicsList.innerHTML = '';
+            
+            topicsData.forEach(topic => {
+                const topicSection = document.createElement('div');
+                topicSection.className = 'topic-section';
+                
+                const isActive = currentTopicId === topic.id;
+                
+                topicSection.innerHTML = `
+                    <div class="topic-header ${isActive ? 'active' : ''}" onclick="toggleTopic(${topic.id})">
+                        <span>${topic.madde_no} - ${topic.baslik}</span>
+                        <span>${topic.answered_questions}/${topic.total_questions}</span>
+                    </div>
+                    <div class="topic-questions ${isActive ? 'active' : ''}" id="topic-${topic.id}-questions">
+                        ${topic.questions.map(q => {
+                            const isCurrent = currentQuestionId === q.id;
+                            let status = 'pending';
+                            if (q.answered) {
+                                if (q.is_correct === true) {
+                                    status = 'correct';
+                                } else if (q.is_correct === false) {
+                                    status = 'wrong';
+                                }
+                            }
+                            return `
+                                <div class="question-item ${isCurrent ? 'current' : ''} ${q.answered ? 'answered' : ''}" 
+                                     onclick="loadQuestion(${q.id})">
+                                    <span class="question-status ${status}"></span>
+                                    <span>${q.numara}</span>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                `;
+                
+                topicsList.appendChild(topicSection);
+            });
+        }
+        
+        // Toggle topic
+        function toggleTopic(topicId) {
+            if (currentTopicId === topicId) {
+                currentTopicId = null;
+            } else {
+                currentTopicId = topicId;
+            }
+            renderTopics();
+        }
+        
+        // Load question
+        async function loadQuestion(questionId) {
+            try {
+                currentQuestionId = questionId;
+                
+                // Update current topic
+                for (const topic of topicsData) {
+                    if (topic.questions.some(q => q.id === questionId)) {
+                        currentTopicId = topic.id;
+                        break;
+                    }
+                }
+                
+                renderTopics();
+                
+                const response = await fetch(`{% url "api_get_question" 0 %}`.replace('0', questionId));
+                const data = await response.json();
+                
+                renderQuestion(data);
+                
+                // Update sidebar
+                renderTopics();
+            } catch (error) {
+                console.error('Error loading question:', error);
+            }
+        }
+        
+        // Render question
+        function renderQuestion(data) {
+            const questionContent = document.getElementById('question-content');
+            const question = data.question;
+            const userAnswer = data.user_answer;
+            const navigation = data.navigation;
+            
+            const hasAnswer = userAnswer && userAnswer.selected_answer !== null;
+            const showFeedback = hasAnswer;
+            
+            // Reset selected option if question has been answered
+            if (hasAnswer) {
+                selectedOption = null;
+            }
+            
+            // Escape HTML for option text
+            function escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+            
+            let optionsHtml = question.siklar.map((option, index) => {
+                let classes = 'option-item';
+                const optionId = `option-${question.id}-${index}`;
+                
+                if (hasAnswer) {
+                    if (option === question.dogru_cevap) {
+                        classes += ' correct';
+                    } else if (option === userAnswer.selected_answer && !userAnswer.is_correct) {
+                        classes += ' wrong';
+                    }
+                    if (option === userAnswer.selected_answer) {
+                        classes += ' selected';
+                    }
+                    classes += ' disabled';
+                } else if (selectedOption === option) {
+                    classes += ' selected';
+                }
+                
+                return `
+                    <div class="${classes}" id="${optionId}" data-option="${escapeHtml(option)}" onclick="${!hasAnswer ? `selectOption(${question.id}, ${index})` : ''}">
+                        ${String.fromCharCode(65 + index)}. ${escapeHtml(option)}
+                    </div>
+                `;
+            }).join('');
+            
+            questionContent.innerHTML = `
+                <div class="question-header">
+                    <div class="question-number">Soru ${question.numara}</div>
+                    <div class="question-topic">${question.topic.madde_no} - ${question.topic.baslik}</div>
+                </div>
+                
+                ${question.durum ? `<div class="question-situation">${escapeHtml(question.durum)}</div>` : ''}
+                
+                <div class="question-text">${escapeHtml(question.soru)}</div>
+                
+                <div class="question-options">
+                    ${optionsHtml}
+                </div>
+                
+                ${showFeedback ? `
+                    <div class="question-feedback show ${userAnswer.is_correct ? 'correct' : 'wrong'}">
+                        ${userAnswer.is_correct ? '✓ Doğru!' : '✗ Yanlış!'}
+                        ${data.yorum ? `<div class="question-comment">${escapeHtml(data.yorum)}</div>` : ''}
+                    </div>
+                ` : ''}
+                
+                <div class="question-actions">
+                    <button class="btn btn-primary" id="check-btn" onclick="checkAnswer()" ${hasAnswer || !selectedOption ? 'disabled' : ''}>
+                        Kontrol Et
+                    </button>
+                </div>
+                
+                <div class="question-navigation">
+                    ${navigation.prev_question_id ? `
+                        <button class="btn btn-secondary" onclick="loadQuestion(${navigation.prev_question_id})">
+                            ← Önceki Soru
+                        </button>
+                    ` : `
+                        <button class="btn btn-secondary" disabled>
+                            ← Önceki Soru
+                        </button>
+                    `}
+                    <span>${navigation.current_index} / ${navigation.total_in_topic}</span>
+                    ${navigation.next_question_id ? `
+                        <button class="btn btn-secondary" onclick="loadQuestion(${navigation.next_question_id})">
+                            Sonraki Soru →
+                        </button>
+                    ` : `
+                        <button class="btn btn-secondary" disabled>
+                            Sonraki Soru →
+                        </button>
+                    `}
+                </div>
+            `;
+        }
+        
+        // Select option
+        function selectOption(questionId, optionIndex) {
+            const optionElement = document.getElementById(`option-${questionId}-${optionIndex}`);
+            if (!optionElement || optionElement.classList.contains('disabled')) return;
+            
+            // Get the actual option text from data attribute
+            selectedOption = optionElement.getAttribute('data-option');
+            
+            // Update visual selection
+            const options = document.querySelectorAll('.option-item:not(.disabled)');
+            options.forEach(opt => {
+                opt.classList.remove('selected');
+            });
+            optionElement.classList.add('selected');
+            
+            // Enable check button
+            const checkBtn = document.getElementById('check-btn');
+            if (checkBtn) {
+                checkBtn.disabled = false;
+            }
+        }
+        
+        // Check answer
+        async function checkAnswer() {
+            if (!selectedOption || !currentQuestionId) {
+                alert('Lütfen bir cevap seçin!');
+                return;
+            }
+            
+            try {
+                const response = await fetch(`{% url "api_submit_answer" 0 %}`.replace('0', currentQuestionId), {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCookie('csrftoken')
+                    },
+                    body: JSON.stringify({
+                        selected_answer: selectedOption
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Update user answers
+                    userAnswers[currentQuestionId] = {
+                        selected_answer: selectedOption,
+                        is_correct: data.is_correct
+                    };
+                    
+                    // Reload question to show feedback
+                    const questionResponse = await fetch(`{% url "api_get_question" 0 %}`.replace('0', currentQuestionId));
+                    const questionData = await questionResponse.json();
+                    
+                    // Add yorum to question data
+                    questionData.yorum = data.yorum;
+                    
+                    renderQuestion(questionData);
+                    
+                    // Reload progress
+                    await loadProgress();
+                    
+                    // Reload topics
+                    const topicsResponse = await fetch('{% url "api_get_topics" %}');
+                    const topicsResult = await topicsResponse.json();
+                    topicsData = topicsResult.topics;
+                    renderTopics();
+                } else {
+                    alert(data.error || 'Cevap kaydedilirken bir hata oluştu.');
+                }
+            } catch (error) {
+                console.error('Error checking answer:', error);
+                alert('Cevap kaydedilirken bir hata oluştu.');
+            }
+        }
+        
+        // Get CSRF token
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+        
+        // Mobile sidebar toggle
+        document.getElementById('mobile-sidebar-toggle').addEventListener('click', function() {
+            const sidebar = document.getElementById('questions-sidebar');
+            sidebar.classList.toggle('active');
+        });
+        
         // Hamburger menü toggle
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('mobile-menu-toggle');
@@ -54,17 +740,14 @@
                     const isActive = menu.classList.contains('active');
                     
                     if (isActive) {
-                        // Menüyü kapat
                         menu.classList.remove('active');
                         menuToggle.classList.remove('active');
                     } else {
-                        // Menüyü aç
                         menu.classList.add('active');
                         menuToggle.classList.add('active');
                     }
                 });
                 
-                // Menü dışına tıklanınca kapat
                 document.addEventListener('click', function(event) {
                     if (!menuToggle.contains(event.target) && !menu.contains(event.target)) {
                         menu.classList.remove('active');
@@ -72,6 +755,9 @@
                     }
                 });
             }
+            
+            // Load initial data
+            loadInitialData();
         });
     </script>
 </body>

@@ -1,0 +1,1114 @@
+[
+  {
+    "madde_no": "4",
+    "baslik": "Takımlar",
+    "sayfa": 4,
+    "aciklamalar": [
+      {
+        "numara": "4-1",
+        "metin": "Takımdaki bütün oyuncuların forma ve şortun altına giydikleri dahil tüm kol ve bacak giyilebilir kompresyon malzemeleri, başörtüsü, bileklikleri, kafa-saç bantları aynı hakim renkte olmalıdır.",
+        "sayfa": 4
+      },
+      {
+        "numara": "4-4",
+        "metin": "Fular tarzı kafa bantlarının takılmasına izin verilmez Diyagram 1 Fular tarzı kafa bandı örnekleri",
+        "sayfa": 4
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "4-2",
+        "durum": "Sahada A1 beyaz, A2 ise kırmızı saç bandı takar.",
+        "yorum": "A1 ve A2'nin farklı renkte saç bantları takmasına izin verilmez.",
+        "sayfa": 4,
+        "soru": "Sahada A1 beyaz, A2 ise kırmızı saç bandı takar. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "A1 ve A2'nin farklı renkte saç bantları takmasına izin verilmez.",
+          "Oyuna devam edilir, herhangi bir kural ihlali yoktur.",
+          "Hakemler A1 ve A2'yi uyararak farklı renkte bantla oynamalarına izin verir.",
+          "A1 ve A2'ye farklı renkte bant taktıkları için teknik faul verilir."
+        ],
+        "dogru_cevap": "A1 ve A2'nin farklı renkte saç bantları takmasına izin verilmez."
+      },
+      {
+        "numara": "4-3",
+        "durum": "Sahada A1 beyaz saç bandı, A2 ise kırmızı bileklik takar.",
+        "yorum": "Beyaz bir kafa bandı takan A1'e ve kırmızı bir bileklik takan A2'ye izin verilmez.",
+        "sayfa": 4,
+        "soru": "Sahada A1 beyaz saç bandı, A2 ise kırmızı bileklik takar. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Takım arkadaşları farklı renk saç bandı ve bileklik takabilir, bu durumda sorun yoktur.",
+          "A2'nin bilekliği farklı renkte olabilir, sadece saç bantları aynı renkte olmalıdır.",
+          "Hakemler oyuncuları uyarır ancak oyunu durdurmaz; A1 ve A2 oynamaya devam eder.",
+          "Beyaz bir kafa bandı takan A1'e ve kırmızı bir bileklik takan A2'ye izin verilmez."
+        ],
+        "dogru_cevap": "Beyaz bir kafa bandı takan A1'e ve kırmızı bir bileklik takan A2'ye izin verilmez."
+      },
+      {
+        "numara": "4-5",
+        "durum": "A1, takım arkadaşlarının izin verilen diğer herhangi bir ek ekipmanıyla aynı hakim renkte fular tarzı bir kafa bandı takar.",
+        "yorum": "A1'in fular tarzı bir kafa bandı takmasına izin verilmez. Kafa bandı, başın etrafında açma/bağlama parçalarına sahip olmayacak ve üzerinde sıkmaya yarayacak herhangi bir parçası bulunmayacaktır.",
+        "sayfa": 4,
+        "soru": "A1, takım arkadaşlarının izin verilen diğer herhangi bir ek ekipmanıyla aynı hakim renkte fular tarzı bir kafa bandı takar. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Fular tarzı kafa bandı, takımın ana rengine uyduğu sürece kullanılabilir.",
+          "A1'in bandı takım arkadaşlarının ekipman rengine uyduğu için hakemler müdahale etmez.",
+          "Fular tarzı bant sadece kadın oyuncular için yasaktır, erkek oyuncular takabilir.",
+          "A1'in fular tarzı bir kafa bandı takmasına izin verilmez. Kafa bandı, başın etrafında açma/bağlama parçalarına sahip olmayacak ve üzerinde sıkmaya yarayacak herhangi bir parçası bulunmayacaktır."
+        ],
+        "dogru_cevap": "A1'in fular tarzı bir kafa bandı takmasına izin verilmez. Kafa bandı, başın etrafında açma/bağlama parçalarına sahip olmayacak ve üzerinde sıkmaya yarayacak herhangi bir parçası bulunmayacaktır."
+      },
+      {
+        "numara": "4-6",
+        "durum": "A6, bir değişiklik talebinde bulunur. Hakemler A6’nın formasının altına kompresyon malzemesi özelliği olmayan bir tişört giydiğini fark ederler.",
+        "yorum": "Oyuncu değişikliğine izin verilmez. Üniformanın altına sadece kompresyon malzemesi özelliği olan giysiler giyilebilir.",
+        "sayfa": 4,
+        "soru": "A6, bir değişiklik talebinde bulunur. Hakemler A6’nın formasının altına kompresyon malzemesi özelliği olmayan bir tişört giydiğini fark ederler. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Hakemler A6'ya formasının altındaki tişörtü çıkarmasını söyleyerek değişikliğe izin verir.",
+          "A6, kompresyon özelliği olmayan tişört ile de oynayabilir; bu durum kural dışı değildir.",
+          "A6'nın yerine başka bir yedek oyuncu oyuna dahil edilir ve oyun devam eder.",
+          "Oyuncu değişikliğine izin verilmez. Üniformanın altına sadece kompresyon malzemesi özelliği olan giysiler giyilebilir."
+        ],
+        "dogru_cevap": "Oyuncu değişikliğine izin verilmez. Üniformanın altına sadece kompresyon malzemesi özelliği olan giysiler giyilebilir."
+      },
+      {
+        "numara": "4-7",
+        "durum": "A6, şortunun altına aşağıda belirtilen şekilde kompresyon malzemesi özelliği olan bir giysi giyer. (a) Dizlerinin üzerine kadar uzayan, (b) Ayak bileklerine kadar uzayan.",
+        "yorum": "Giyilebilir kompresyon malzemeleri (şort altına giyilen) kurallara uygundur ve herhangi bir uzunlukta giyilebilir. Takımdaki tüm oyuncular, forma ve şortun altına giydikleri dahil aynı hakim renkte kol ve bacak için giyilebilir kompresyon malzemeleri, başörtüsü, bileklik ve kafa-saç bantları kullanmalıdır.",
+        "sayfa": 4,
+        "soru": "A6, şortunun altına aşağıda belirtilen şekilde kompresyon malzemesi özelliği olan bir giysi giyer. (a) Dizlerinin üzerine kadar uzayan, (b) Ayak bileklerine kadar uzayan. Bu durumlarda ne yapılmalıdır?",
+        "siklar": [
+          "Diz üstüne kadar olan kompresyon giysilerine izin verilir, ancak ayak bileğine kadar uzayanlar yasaktır.",
+          "Şortun altına hiçbir şekilde uzun kompresyon malzemesi giyilemez; A6 bunu çıkarmadan oynayamaz.",
+          "A6'nın giydiği malzeme yalnızca diz altına kadar olmalıdır; bileğe kadar uzayan giysi kabul edilmez.",
+          "Giyilebilir kompresyon malzemeleri (şort altına giyilen) kurallara uygundur ve herhangi bir uzunlukta giyilebilir. Takımdaki tüm oyuncular, forma ve şortun altına giydikleri dahil aynı hakim renkte kol ve bacak için giyilebilir kompresyon malzemeleri, başörtüsü, bileklik ve kafa-saç bantları kullanmalıdır."
+        ],
+        "dogru_cevap": "Giyilebilir kompresyon malzemeleri (şort altına giyilen) kurallara uygundur ve herhangi bir uzunlukta giyilebilir. Takımdaki tüm oyuncular, forma ve şortun altına giydikleri dahil aynı hakim renkte kol ve bacak için giyilebilir kompresyon malzemeleri, başörtüsü, bileklik ve kafa-saç bantları kullanmalıdır."
+      },
+      {
+        "numara": "4-8",
+        "durum": "A6, formasının altına aşağıda belirtilen şekilde kompresyon malzemesi özelliği olan bir atlet giyer. (a) Omuzlarının üzerine kadar uzayan, (b) Boynuna kadar uzayan.",
+        "yorum": "Giyilebilir kompresyon malzemeleri (forma altına giyilen) kurallara uygundur ve kullanılabilir. (a) Omuzlarının üzerine ve altına doğru herhangi bir uzunlukta, (b) Boynun üst tarafına kadar uzayan Takımdaki tüm oyuncular, forma ve şortun altına giydikleri dahil aynı hakim renkte kol ve bacak için giyilebilir kompresyon malzemeleri, başörtüsü, bileklik ve kafa-saç bantları kullanmalıdır.",
+        "sayfa": 4,
+        "soru": "A6, formasının altına aşağıda belirtilen şekilde kompresyon malzemesi özelliği olan bir atlet giyer. (a) Omuzlarının üzerine kadar uzayan, (b) Boynuna kadar uzayan. Bu durumlarda ne yapılmalıdır?",
+        "siklar": [
+          "Forma altına sadece omuz hizasına kadar uzanan içlikler giyilebilir, boyna kadar uzayanlar yasaktır.",
+          "Forma altına hiçbir içlik giyilemez; her iki durumda da A6 oyuna giremez.",
+          "Boynuna kadar çıkan içlik, takım rengine uysa bile kural dışıdır.",
+          "Giyilebilir kompresyon malzemeleri (forma altına giyilen) kurallara uygundur ve kullanılabilir. (a) Omuzlarının üzerine ve altına doğru herhangi bir uzunlukta, (b) Boynun üst tarafına kadar uzayan Takımdaki tüm oyuncular, forma ve şortun altına giydikleri dahil aynı hakim renkte kol ve bacak için giyilebilir kompresyon malzemeleri, başörtüsü, bileklik ve kafa-saç bantları kullanmalıdır."
+        ],
+        "dogru_cevap": "Giyilebilir kompresyon malzemeleri (forma altına giyilen) kurallara uygundur ve kullanılabilir. (a) Omuzlarının üzerine ve altına doğru herhangi bir uzunlukta, (b) Boynun üst tarafına kadar uzayan Takımdaki tüm oyuncular, forma ve şortun altına giydikleri dahil aynı hakim renkte kol ve bacak için giyilebilir kompresyon malzemeleri, başörtüsü, bileklik ve kafa-saç bantları kullanmalıdır."
+      }
+    ]
+  },
+  {
+    "madde_no": "5",
+    "baslik": "Sakatlanma ve yardım",
+    "sayfa": 5,
+    "aciklamalar": [
+      {
+        "numara": "5-1",
+        "metin": "Bir oyuncu sakatlanır ya da sakatlanmış görünür veya yardıma ihtiyacı olursa ve bunun sonucunda takımın sıra bölgesinde oturmasına izin verilen herhangi biri (aynı takımın başantrenör, birinci yardımcı antrenör, yedek oyuncu, oyun dışı kalmış oyuncu ya da delegasyon üyesi) sahaya girerse, o oyuncunun gerçekten tedavi görüp görmediğine ya da yardım alıp almadığına bakılmaksızın tedavi olmuş veya yardım almış olarak kabul edilir.",
+        "sayfa": 5
+      },
+      {
+        "numara": "5-5",
+        "metin": "Takımının sıra bölgesinde oturmasına izin verilen herhangi bir kişi, takım sıra bölgesinde kalmaya devam ederken kendi takımındaki bir oyuncuya yardım edebilir. Eğer bu yardım oyunun hemen yeniden başlatılmasını geciktirmezse bu oyuncunun bir yardım almamış olduğu kabul edilir ve oyuncu değişikliği yapılmasını gerektirmez.",
+        "sayfa": 5
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "5-2",
+        "durum": "A1 ayak bileğinden sakatlanmış görünmektedir ve oyun durdurulur. A takımının: (a) Doktoru sahaya girer ve A1'in sakatlanan ayak bileğini tedavi eder. (b) Doktoru sahaya girer ancak, A1 daha önce iyileşir. (c) Başantrenörü sakatlanan oyuncusuna bakmak için sahaya girer. (d) Birinci yardımcı antrenör, yedek oyuncu, oyun dışı kalmış oyuncu ya da herhangi bir diğer delegasyon üyesi sahaya girer, ancak A1’i tedavi etmezler.",
+        "yorum": "Tüm durumlarda A1 tedavi görmüş kabul edilir ve değiştirilecektir.",
+        "sayfa": 5,
+        "soru": "A1 ayak bileğinden sakatlanmış görünmektedir ve oyun durdurulur. A takımının: (a) Doktoru sahaya girer ve A1'in sakatlanan ayak bileğini tedavi eder. (b) Doktoru sahaya girer ancak, A1 daha önce iyileşir. (c) Başantrenörü sakatlanan oyuncusuna bakmak için sahaya girer. (d) Birinci yardımcı antrenör, yedek oyuncu, oyun dışı kalmış oyuncu ya da herhangi bir diğer delegasyon üyesi sahaya girer, ancak A1’i tedavi etmezler. Bu durumlarda ne yapılmalıdır?",
+        "siklar": [
+          "Doktor sahaya girip müdahale etmediyse (oyuncu kendi kendine iyileştiyse), A1 oyunda kalabilir.",
+          "Başantrenör sadece kontrol amaçlı sahaya girerse bu yardım sayılmaz; A1 oyuna devam edebilir.",
+          "Yedekler veya yardımcı antrenörler sahaya girip tedavi uygulamadıysa oyuncu değişikliği gerekmez.",
+          "Tüm durumlarda A1 tedavi görmüş kabul edilir ve değiştirilecektir."
+        ],
+        "dogru_cevap": "Tüm durumlarda A1 tedavi görmüş kabul edilir ve değiştirilecektir."
+      },
+      {
+        "numara": "5-3",
+        "durum": "Takımın fizyoterapisti A1’in gevşek olan bandını düzeltmek için oyun sahasına girer.",
+        "yorum": "A1 bir yardım almıştır ve değiştirilecektir.",
+        "sayfa": 5,
+        "soru": "Takımın fizyoterapisti A1’in gevşek olan bandını düzeltmek için oyun sahasına girer. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Sadece bandı düzeltmek tıbbi yardım sayılmaz; A1 oyuna devam edebilir.",
+          "Fizyoterapistin bu müdahalesi kural dışı değildir ve A1'in oyundan çıkması gerekmez.",
+          "Ekipman düzeltmeleri yardım kapsamında değildir, A1 oyunda kalabilir.",
+          "A1 bir yardım almıştır ve değiştirilecektir."
+        ],
+        "dogru_cevap": "A1 bir yardım almıştır ve değiştirilecektir."
+      },
+      {
+        "numara": "5-4",
+        "durum": "Takımın doktoru A1'in kayıp olan kontak lensini bulmak için sahaya girer.",
+        "yorum": "A1 bir yardım almıştır ve değiştirilecektir.",
+        "sayfa": 5,
+        "soru": "Takımın doktoru A1'in kayıp olan kontak lensini bulmak için sahaya girer. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Kontakt lens aramak tıbbi yardım sayılmaz; A1 oyuna devam edebilir.",
+          "Doktor, fiziksel bir tedavi uygulamadığı için A1'in oyundan çıkmasına gerek yoktur.",
+          "Sahaya, kayıp lensi bulmak için girilmesi oyuncuya yardım olarak değerlendirilmez.",
+          "A1 bir yardım almıştır ve değiştirilecektir."
+        ],
+        "dogru_cevap": "A1 bir yardım almıştır ve değiştirilecektir."
+      },
+      {
+        "numara": "5-6",
+        "durum": "B1, atış halindeki A1'e, A takımı sıra bölgesi alanı yakınında faul yapar. Top sepetten içeri girmez. A1, 2 ya da 3 serbest atış girişiminde bulunurken; (a) A takımının sıra bölgesinden bir yönetici veya A6, oyun sahasındaki herhangi diğer bir A takımı oyuncusuna bir havlu, bir su şişesi veya bir kafa bandı verir. (b) A takımının sıra bölgesinden bir fizyoterapist, oyun sahasındaki diğer bir A takımı oyuncusunun çıkmış olan bantlarını düzeltir, bacağına sprey sıkar veya boynuna masaj yapar, vb.",
+        "yorum": "Her iki durumda da A takımı oyuncusu, oyunun hemen yeniden başlatılmasını geciktiren bir yardım almamıştır. A takımı oyuncusu için oyuncu değişikliği yapılması gerekmeyecektir. A1, 2 ya da 3 serbest atışını atmaya devam edecektir.",
+        "sayfa": 5,
+        "soru": "B1, atış halindeki A1'e, A takımı sıra bölgesi alanı yakınında faul yapar. Top sepetten içeri girmez. A1, 2 ya da 3 serbest atış girişiminde bulunurken; (a) A takımının sıra bölgesinden bir yönetici veya A6, oyun sahasındaki herhangi diğer bir A takımı oyuncusuna bir havlu, bir su şişesi veya bir kafa bandı verir. (b) A takımının sıra bölgesinden bir fizyoterapist, oyun sahasındaki diğer bir A takımı oyuncusunun çıkmış olan bantlarını düzeltir, bacağına sprey sıkar veya boynuna masaj yapar, vb. Bu durumlarda ne yapılmalıdır?",
+        "siklar": [
+          "Her iki durumda da oyuncu yardım aldığı için çıkarılmalıdır.",
+          "Fizyoterapistin küçük müdahalesi de yardım sayılır; ilgili oyuncu oyundan çıkar.",
+          "Havlu veya su vermek de oyunun hemen başlamasını geciktirir, bu yüzden oyuncu değiştirilmelidir.",
+          "Her iki durumda da A takımı oyuncusu, oyunun hemen yeniden başlatılmasını geciktiren bir yardım almamıştır. A takımı oyuncusu için oyuncu değişikliği yapılması gerekmeyecektir. A1, 2 ya da 3 serbest atışını atmaya devam edecektir."
+        ],
+        "dogru_cevap": "Her iki durumda da A takımı oyuncusu, oyunun hemen yeniden başlatılmasını geciktiren bir yardım almamıştır. A takımı oyuncusu için oyuncu değişikliği yapılması gerekmeyecektir. A1, 2 ya da 3 serbest atışını atmaya devam edecektir."
+      },
+      {
+        "numara": "5-7",
+        "durum": "B1, atış halindeki A1'e, A takımı sıra bölgesi alanı yakınında faul yapar. Top sepetten içeri girmez. Faulden sonra A1, sahadaki takım sıra bölgesinin içerisine düşer. A6 yerinden kalkar ve A1'in ayağa kalkmasına yardım eder. A1, en geç yaklaşık 15 saniye içinde hemen oynamaya hazırdır.",
+        "yorum": "A1, oyunun hemen yeniden başlatılmasını geciktiren bir yardım almamıştır. A1 için oyuncu değişikliği yapılması gerekmeyecektir. A1, 2 ya da 3 serbest atış kullanacaktır.",
+        "sayfa": 5,
+        "soru": "B1, atış halindeki A1'e, A takımı sıra bölgesi alanı yakınında faul yapar. Top sepetten içeri girmez. Faulden sonra A1, sahadaki takım sıra bölgesinin içerisine düşer. A6 yerinden kalkar ve A1'in ayağa kalkmasına yardım eder. A1, en geç yaklaşık 15 saniye içinde hemen oynamaya hazırdır. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "A6'nın A1'e yardım etmesi, A1'in yardım almış sayılmasına yol açar ve A1 oyundan çıkarılmalıdır.",
+          "A1 yaklaşık 15 saniyede toparlanmış olsa da yardım aldığı için oyuna devam edemez.",
+          "Saha kenarında dahi yardım almak, oyuncuyu değiştirmeyi gerektirir.",
+          "A1, oyunun hemen yeniden başlatılmasını geciktiren bir yardım almamıştır. A1 için oyuncu değişikliği yapılması gerekmeyecektir. A1, 2 ya da 3 serbest atış kullanacaktır."
+        ],
+        "dogru_cevap": "A1, oyunun hemen yeniden başlatılmasını geciktiren bir yardım almamıştır. A1 için oyuncu değişikliği yapılması gerekmeyecektir. A1, 2 ya da 3 serbest atış kullanacaktır."
+      }
+    ]
+  },
+  {
+    "madde_no": "7",
+    "baslik": "Başantrenör ve birinci yardımcı antrenör: Görevleri ve yetkileri",
+    "sayfa": 8,
+    "aciklamalar": [
+      {
+        "numara": "7-1",
+        "metin": "Maçın belirlenmiş başlama saatinden en az 40 dakika önce, her takımın başantrenörü ya da takımın temsilcisi sayı görevlisine oynayacak takım üyelerinin isimleri ve numaraları ile birlikte teslim edecektir.",
+        "sayfa": 8
+      },
+      {
+        "numara": "7-4",
+        "metin": "Maçın belirlenmiş başlama saatinden en az 10 dakika önce, her takımın başantrenörü maça başlayacak olan 5 oyuncusunu belirtecektir. Maç başlamadan önce sayı görevlisi bu 5 oyuncuyla başlayacak 5 oyuncuyu karşılaştıracaktır.",
+        "sayfa": 8
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "8",
+    "baslik": "Oyun süresi, eşitlik ve uzatma",
+    "sayfa": 9,
+    "aciklamalar": [
+      {
+        "numara": "8-1",
+        "metin": "Maçtan önceki oyun arası sırasında, oyuna başlayacak ilk 5 oyuncudan biri olarak belirlenen bir oyuncu oyuna başlayamaz veya oyuna başlama hakkını yitirirse başka bir oyuncu ile değiştirilecektir.",
+        "sayfa": 10
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "9",
+    "baslik": "Oyunun başlaması",
+    "sayfa": 10,
+    "aciklamalar": [
+      {
+        "numara": "9-1",
+        "metin": "Maçtan önceki oyun arası sırasında, oyuna başlayacak ilk 5 oyuncudan biri olarak belirlenen bir oyuncu oyuna başlayamaz veya oyuna başlama hakkını yitirirse başka bir oyuncu ile değiştirilecektir.",
+        "sayfa": 10
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "9-2",
+        "durum": "İkinci devrenin başında A takımının sakatlıklar, diskalifiyeler, vb. nedeniyle sadece 4 oyuncusu oynamaya hazırdır. Oyun yeniden başlamayacaktır.",
+        "yorum": "A takımı maçı tamamlamak için en az 5 oyuncuya sahip olmadığından B takımı kazanan ilan edilir.",
+        "sayfa": 10,
+        "soru": "İkinci devrenin başında A takımının sakatlıklar, diskalifiyeler, vb. nedeniyle sadece 4 oyuncusu oynamaya hazırdır. Oyun yeniden başlamayacaktır. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "A takımı ikinci yarıya 4 oyuncuyla başlayabilir, oyun 4'e 5 devam eder.",
+          "Hakemler A takımına eksik oyuncu için süre tanır; beşinci oyuncu gelmezse maç ertelenir.",
+          "A takımı 5. oyuncuya sahip olmasa da karşılaşmaya devam edebilir, bu bir kural ihlali değildir.",
+          "A takımı maçı tamamlamak için en az 5 oyuncuya sahip olmadığından B takımı kazanan ilan edilir."
+        ],
+        "dogru_cevap": "A takımı maçı tamamlamak için en az 5 oyuncuya sahip olmadığından B takımı kazanan ilan edilir."
+      },
+      {
+        "numara": "9-7",
+        "durum": "Maç öncesi oyun arası sırasında A1’e bir teknik faul verilir. Maç başlamadan önce B takımı başantrenörü B6’nın 1 serbest atış atacağını belirtir ancak B6, takımın oyuna başlayacak ilk 5 oyuncusunun arasında değildir.",
+        "yorum": "B6, bir başantrenör tarafından oyuna başlayacak ilk 5 içinde belirlenmiş bir oyuncu olmadığı için teknik faul için serbest atışları atabilir.",
+        "sayfa": 10,
+        "soru": "Maç öncesi oyun arası sırasında A1’e bir teknik faul verilir. Maç başlamadan önce B takımı başantrenörü B6’nın 1 serbest atış atacağını belirtir ancak B6, takımın oyuna başlayacak ilk 5 oyuncusunun arasında değildir. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "B6, ilk 5'te olmadığı için serbest atışları kullanamaz; atışları ilk beşteki bir oyuncu yapmalıdır.",
+          "B6'nın serbest atışı kullanabilmesi için önce sahada olması (oyuna başlaması) gerekir.",
+          "Teknik faul atışını yalnızca B takımının sahadaki oyuncuları kullanabilir.",
+          "B6, bir başantrenör tarafından oyuna başlayacak ilk 5 içinde belirlenmiş bir oyuncu olmadığı için teknik faul için serbest atışları atabilir."
+        ],
+        "dogru_cevap": "B6, bir başantrenör tarafından oyuna başlayacak ilk 5 içinde belirlenmiş bir oyuncu olmadığı için teknik faul için serbest atışları atabilir."
+      }
+    ]
+  },
+  {
+    "madde_no": "10",
+    "baslik": "Topun statüsü",
+    "sayfa": 11,
+    "aciklamalar": [
+      {
+        "numara": "10-1",
+        "metin": "Bir oyuncu atış halinde olduğunda ve savunma takımının bir oyuncusu şut girişimindeki oyuncunun devam eden hareketi başladıktan sonra herhangi bir rakibe bir faul yaptığında, atış halindeki oyuncunun gerçekleştirdiği başarılı bir sayı girişimi sayılır. Bu açıklama, savunma takımının bir oyuncusuna veya takım sıra bölgesinde oturmaya izinli herhangi bir kişiye bir teknik faul verilmesinde de aynı şekilde geçerlidir.",
+        "sayfa": 11
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "10-2",
+        "durum": "B2, A2’ye faul yaptığında A1 atış halindedir. A1, devam eden hareketinde topu çembere doğru atar ve top başarılı olur.",
+        "yorum": "A1’in sayısı geçerli sayılır. A2’ye yapılan faulden dolayı A2’ye 2 serbest atış verilir. Bu normal bir durumda da olduğu gibi oyunun devam etme şeklidir.",
+        "sayfa": 11,
+        "soru": "B2, A2’ye faul yaptığında A1 atış halindedir. A1, devam eden hareketinde topu çembere doğru atar ve top başarılı olur. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "A1’in attığı basket, faul nedeniyle geçersiz sayılır.",
+          "Sayı geçerlidir ancak A2’ye yapılan faul sonrası serbest atış kullandırılmaz.",
+          "A1’in sayısı geçerli sayılır ve ayrıca A1’e bir serbest atış hakkı verilir.",
+          "A1’in sayısı geçerli sayılır. A2’ye yapılan faulden dolayı A2’ye 2 serbest atış verilir. Bu normal bir durumda da olduğu gibi oyunun devam etme şeklidir."
+        ],
+        "dogru_cevap": "A1’in sayısı geçerli sayılır. A2’ye yapılan faulden dolayı A2’ye 2 serbest atış verilir. Bu normal bir durumda da olduğu gibi oyunun devam etme şeklidir."
+      }
+    ]
+  },
+  {
+    "madde_no": "12",
+    "baslik": "Hava atışı ve pozisyon sırası",
+    "sayfa": 13,
+    "aciklamalar": [
+      {
+        "numara": "12-1",
+        "metin": "Oyunun başlangıcındaki hava atışından sonra canlı bir topun ilk takım kontrolünü sağlayamayan takıma, doğrudan arkalığın arkası hariç, bir sonraki hava atışı durumunun meydana geldiği en yakın yerden topu oyuna sokma hakkı verilecektir. A takımı topu oyuna sokma hakkını kazanırsa, pozisyon sırası oku B takımını gösterecek şekilde ayarlanacaktır.",
+        "sayfa": 13
+      },
+      {
+        "numara": "12-16",
+        "metin": "Serbest atışlar arası olmadıkça ve son serbest atıştan sonra faul cezasının parçası olan topu oyuna sokma hakkı olmadıkça canlı bir top çemberle arkalık arasına sıkıştığında bu, pozisyon sırasına göre topu oyuna sokma durumudur.",
+        "sayfa": 13
+      },
+      {
+        "numara": "12-22",
+        "metin": "Rakip takımlardan bir ya da daha fazla oyuncunun bir veya her iki eli sıkıca topun üzerinde olduğunda, hiçbir oyuncunun aşırı güç harcamadan topun kontrolünü elde edemediğinde tutulmuş top durumu meydana gelir.",
+        "sayfa": 13
+      },
+      {
+        "numara": "12-24",
+        "metin": "Pozisyon sırasına göre top oyuna sokulurken yapılan bir ihlal, o takımın pozisyon sırasına göre topu oyuna sokma hakkını kaybetmesine neden olur.",
+        "sayfa": 13
+      },
+      {
+        "numara": "12-26",
+        "metin": "Bir hava atışı durumu meydana geldiğinde eğer şut saatinde kalan süre bulunmuyorsa ve pozisyon sırası oku A takımını gösteriyorsa pozisyon değiştirme prosedürü uygulanmayacaktır. Bu bir şut saati ihlalidir ve top B takımına verilecektir.",
+        "sayfa": 13
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "12-5",
+        "durum": "Başhakem, başlama hava atışı için topu atar. Top hava atışına sıçrayan A1 tarafından kurallara uygun olarak tiplendikten hemen sonra; (a) A2 ve B2 arasında bir tutulmuş top kararı verilir. (b) A2 ve B2 arasında bir çift faul meydana gelir.",
+        "yorum": "Her iki durumda da A2 hava atışı ihlali yapmıştır. B takımına orta çizginin ihlalin olduğu en yakın yerinden topu oyuna sokma hakkı verilecektir. (a) ön sahasındaysa, şut saatinde 14 saniye ile (b) geri sahasındaysa, şut saatinde 24 saniye ile Top, B takımının topu oyuna sokacak olan oyuncusunun kullanımına verilir verilmez, A takımı bir sonraki pozisyon sırasına göre topu oyuna sokma hakkına sahip olacaktır.",
+        "sayfa": 13,
+        "soru": "Başhakem, başlama hava atışı için topu atar. Top hava atışına sıçrayan A1 tarafından kurallara uygun olarak tiplendikten hemen sonra; (a) A2 ve B2 arasında bir tutulmuş top kararı verilir. (b) A2 ve B2 arasında bir çift faul meydana gelir. Bu durumlarda ne yapılmalıdır?",
+        "siklar": [
+          "Pozisyon sırası oku B takımına çevrilir ve B takımı topu en yakın yerden oyuna sokar.",
+          "Her iki durumda da hakem atışı tekrarlanır; pozisyon sırası oku değiştirilmez.",
+          "Her iki durumda da şut saati 24 saniye olarak ayarlanır.",
+          "Her iki durumda da A2 hava atışı ihlali yapmıştır. B takımına orta çizginin ihlalin olduğu en yakın yerinden topu oyuna sokma hakkı verilecektir. (a) ön sahasındaysa, şut saatinde 14 saniye ile (b) geri sahasındaysa, şut saatinde 24 saniye ile Top, B takımının topu oyuna sokacak olan oyuncusunun kullanımına verilir verilmez, A takımı bir sonraki pozisyon sırasına göre topu oyuna sokma hakkına sahip olacaktır."
+        ],
+        "dogru_cevap": "Her iki durumda da A2 hava atışı ihlali yapmıştır. B takımına orta çizginin ihlalin olduğu en yakın yerinden topu oyuna sokma hakkı verilecektir. (a) ön sahasındaysa, şut saatinde 14 saniye ile (b) geri sahasındaysa, şut saatinde 24 saniye ile Top, B takımının topu oyuna sokacak olan oyuncusunun kullanımına verilir verilmez, A takımı bir sonraki pozisyon sırasına göre topu oyuna sokma hakkına sahip olacaktır."
+      },
+      {
+        "numara": "12-25",
+        "durum": "Bir çeyrekte oyun saatinde 4:17 kala pozisyon sırasına göre top A takımını göstermektedir. (a) Top çembere temas etmez. (b) Top çembere temas eder.",
+        "yorum": "A takımının şut saatinde, (a) 6 saniyesi (b) 14 saniyesi olacaktır.",
+        "sayfa": 13,
+        "soru": "Bir çeyrekte oyun saatinde 4:17 kala pozisyon sırasına göre top A takımını göstermektedir. (a) Top çembere temas etmez. (b) Top çembere temas eder. Bu durumlarda ne yapılmalıdır?",
+        "siklar": [
+          "(a) 6 saniye, (b) 24 saniye şut süresi kalır.",
+          "(a) 14 saniye, (b) 14 saniye şut süresi kalır.",
+          "(a) 24 saniye, (b) 24 saniye şut süresi kalır.",
+          "A takımının şut saatinde, (a) 6 saniyesi (b) 14 saniyesi olacaktır."
+        ],
+        "dogru_cevap": "A takımının şut saatinde, (a) 6 saniyesi (b) 14 saniyesi olacaktır."
+      }
+    ]
+  },
+  {
+    "madde_no": "13",
+    "baslik": "Topla nasıl oynanır",
+    "sayfa": 18,
+    "aciklamalar": [
+      {
+        "numara": "13-1",
+        "metin": "Oyun sırasında top sadece el ya da ellerle oynanır. Bir oyuncunun kurallara aykırı olarak; • bir pas ya da şut aldatması yapmak için topu bacaklarının arasına koyması, • topu, rakibinin el ya da ellerinden herhangi biri veya ikisi ile tutması ile topu saklaması, • kasten topu ayağıyla tekmelemesi veya herhangi bir parçasıyla vurması (diz ile sayılmaz) bir ihlaldir.",
+        "sayfa": 18
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "14",
+    "baslik": "Topun kontrolü",
+    "sayfa": 19,
+    "aciklamalar": [
+      {
+        "numara": "14-1",
+        "metin": "Takım kontrolü, o takımdan bir oyuncunun canlı bir topu tutarak, dripling yaparak ya da topu oyuna sokmak veya serbest atış için canlı bir topu kullanımına almasıyla başlar ve: • Bir rakip topu kontrol edene ya da top ölü hale gelene kadar devam eder. • Top, bir sayı girişiminde bulunduktan sonra havaya bırakıldığında sona erer.",
+        "sayfa": 19
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "15",
+    "baslik": "Atış halindeki oyuncu",
+    "sayfa": 20,
+    "aciklamalar": [
+      {
+        "numara": "15-1",
+        "metin": "Bir şut durumunda atış hali, hakemin değerlendirmesine göre oyuncunun topu, rakibinin sepetine doğru yukarıya doğru hareket ettirmesiyle başlar. Atış halindeki oyuncu, top havadayken harekete devam ederken savunma takımı tarafından faul yapılması durumunda, atış sırasında faul olarak değerlendirilir.",
+        "sayfa": 20
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "15-6",
+        "durum": "A1 ön sahada topu tutarken B1'e faul yapar. Bu bir takım kontrol faulüdür. A1 ileri doğru devam hareketinde topu sepetten içeri atar.",
+        "yorum": "A1’in sayısı geçerli sayılmaz. B takımına kendi geri sahasındaki serbest atış çizgisinden topu oyuna sokma hakkı verilecektir.",
+        "sayfa": 20,
+        "soru": "A1 ön sahada topu tutarken B1'e faul yapar. Bu bir takım kontrol faulüdür. A1 ileri doğru devam hareketinde topu sepetten içeri atar. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "A1’in attığı basket geçerli sayılır.",
+          "A1’in sayısı sayılır ve A1’e yaptığı faulden dolayı herhangi bir ceza uygulanmaz.",
+          "A1’in basketi sayılmaz ancak top yine de A takımında kalır.",
+          "A1’in sayısı geçerli sayılmaz. B takımına kendi geri sahasındaki serbest atış çizgisinden topu oyuna sokma hakkı verilecektir."
+        ],
+        "dogru_cevap": "A1’in sayısı geçerli sayılmaz. B takımına kendi geri sahasındaki serbest atış çizgisinden topu oyuna sokma hakkı verilecektir."
+      }
+    ]
+  },
+  {
+    "madde_no": "16",
+    "baslik": "Sayı: Yapıldığı zaman ve değeri",
+    "sayfa": 21,
+    "aciklamalar": [
+      {
+        "numara": "16-1",
+        "metin": "Sahadan yapılan bir sayının değeri, şutun elden çıktığı sahadaki yere göre belirlenir. 2 sayı bölgesinden atılan bir şut 2 sayı, 3 sayı bölgesinden atılan bir şut 3 sayı değerindedir. 3 sayı bölgesinde havadayken yapılan bir şut, top elden çıktığında oyuncunun zemindeki yerine göre değerlendirilir.",
+        "sayfa": 21
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "17",
+    "baslik": "Topun oyuna sokulması",
+    "sayfa": 25,
+    "aciklamalar": [
+      {
+        "numara": "17-1",
+        "metin": "Topun oyuna sokulması sırasında topu oyuna sokan oyuncu dışındaki diğer oyuncuların vücutlarının herhangi bir kısmı sınır çizgisi üzerinde olmayacaktır.",
+        "sayfa": 25
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "18/19",
+    "baslik": "Mola / Oyuncu değişikliği",
+    "sayfa": 33,
+    "aciklamalar": [
+      {
+        "numara": "18/19-1",
+        "metin": "Bir çeyrek ya da uzatma için oyun süresinin başlamasından önce veya bir çeyrek ya da uzatma için oyun süresinin bitmesinden sonra bir mola verilemez.",
+        "sayfa": 33
+      },
+      {
+        "numara": "18/19-3",
+        "metin": "Sayı amacıyla sahadan yapılan bir atış sırasında top havadayken şut saati sesli işaret verirse bu bir şut saati ihlalidir ve top ölü duruma geçer.",
+        "sayfa": 33
+      },
+      {
+        "numara": "18/19-5",
+        "metin": "Madde 18 ve 19, bir mola veya oyuncu değişikliği fırsatının ne zaman başlayıp bittiğini açıklar. Mola ya da oyuncu değişikliği talebi (serbest atışı atan oyuncu dahil, herhangi bir oyuncu için) fırsatı mevcut ise ancak hakem talebi fark etmezse bu talep geçerli kalır ve aynı fırsat içinde verilir.",
+        "sayfa": 33
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "18/19-2",
+        "durum": "Top, oyunun başlangıcında hava atışında başhakemin elinden ayrılmamışken saat başlatılır ve pozisyon sırası oku A takımını göstermektedir.",
+        "yorum": "Oyun başlamış olmasına rağmen oyun saati henüz çalışmadığından pozisyon sırası oku değiştirilmez. Hava atışı tekrarlanır ve A takımının pozisyon sırası hakkı saklı kalır.",
+        "sayfa": 33,
+        "soru": "Top, oyunun başlangıcında hava atışında başhakemin elinden ayrılmamışken saat başlatılır ve pozisyon sırası oku A takımını göstermektedir. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Pozisyon sırası oku B takımına çevrilir.",
+          "Hava atışı tekrarlanmaz; B takımı topa sahip olur.",
+          "Hava atışı tekrarlanır ancak pozisyon sırası oku B takımını gösterir.",
+          "Oyun başlamış olmasına rağmen oyun saati henüz çalışmadığından pozisyon sırası oku değiştirilmez. Hava atışı tekrarlanır ve A takımının pozisyon sırası hakkı saklı kalır."
+        ],
+        "dogru_cevap": "Oyun başlamış olmasına rağmen oyun saati henüz çalışmadığından pozisyon sırası oku değiştirilmez. Hava atışı tekrarlanır ve A takımının pozisyon sırası hakkı saklı kalır."
+      },
+      {
+        "numara": "18/19-4",
+        "durum": "Şut saati sesli işaretini verdiğinde, sahadan yapılan bir şut havadadır.",
+        "yorum": "(a) Bu durum sadece, sayı yiyen takım için bir mola ya da oyuncu değişikliği fırsatı olacaktır. (b) Bu durum her iki takım için de bir mola ya da oyuncu değişikliği fırsatı olacaktır.",
+        "sayfa": 33,
+        "soru": "Şut saati sesli işaretini verdiğinde, sahadan yapılan bir şut havadadır. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Her iki durumda da her iki takım için mola ve oyuncu değişikliği hakkı vardır.",
+          "(a) durumunda her iki takım da mola alabilir; (b) durumunda yalnız sayı yiyen takım mola alabilir.",
+          "Bu pozisyon, hiçbir takım için mola veya oyuncu değişikliği fırsatı oluşturmaz.",
+          "(a) Bu durum sadece, sayı yiyen takım için bir mola ya da oyuncu değişikliği fırsatı olacaktır. (b) Bu durum her iki takım için de bir mola ya da oyuncu değişikliği fırsatı olacaktır."
+        ],
+        "dogru_cevap": "(a) Bu durum sadece, sayı yiyen takım için bir mola ya da oyuncu değişikliği fırsatı olacaktır. (b) Bu durum her iki takım için de bir mola ya da oyuncu değişikliği fırsatı olacaktır."
+      },
+      {
+        "numara": "18/19-6",
+        "durum": "A1 bir şut girişiminde bulunur ve top havadayken çeyreğin sonu için oyun saati sesli işaretini verir. Top çembere temas eder ve A2 topun kontrolünü kazanır.",
+        "yorum": "Bu durum, bir mola veya oyuncu değişikliği fırsatıdır.",
+        "sayfa": 33,
+        "soru": "A1 bir şut girişiminde bulunur ve top havadayken çeyreğin sonu için oyun saati sesli işaretini verir. Top çembere temas eder ve A2 topun kontrolünü kazanır. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Çeyrek bittiği için mola veya oyuncu değişikliği fırsatı yoktur.",
+          "Sayı olmadığından mola fırsatı oluşmaz.",
+          "Oyun durumu böyle olsa bile mola talebi verilemez.",
+          "Bu durum, bir mola veya oyuncu değişikliği fırsatıdır."
+        ],
+        "dogru_cevap": "Bu durum, bir mola veya oyuncu değişikliği fırsatıdır."
+      },
+      {
+        "numara": "18/19-7",
+        "durum": "A1 bir şut girişiminde bulunur ve top havadayken çeyreğin sonu için oyun saati sesli işaretini verir. Top çembere temas etmez ve A2 topun kontrolünü kazanır.",
+        "yorum": "Bu durum, bir mola veya oyuncu değişikliği fırsatı değildir.",
+        "sayfa": 33,
+        "soru": "A1 bir şut girişiminde bulunur ve top havadayken çeyreğin sonu için oyun saati sesli işaretini verir. Top çembere temas etmez ve A2 topun kontrolünü kazanır. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Bu durumda da mola veya oyuncu değişikliği fırsatı vardır.",
+          "Top çembere değmese bile oyun durduğu için takımlar değişiklik yapabilir.",
+          "Her iki durumda da mola veya oyuncu değişikliği fırsatı yoktur.",
+          "Bu durum, bir mola veya oyuncu değişikliği fırsatı değildir."
+        ],
+        "dogru_cevap": "Bu durum, bir mola veya oyuncu değişikliği fırsatı değildir."
+      },
+      {
+        "numara": "18/19-8",
+        "durum": "A1 bir şut girişiminde bulunur ve top havadayken çeyreğin sonu için oyun saati sesli işaretini verir. Top çembere temas eder ve A2 topun kontrolünü kazanır. Bu, her iki takım için bir mola veya oyuncu değişikliği fırsatıdır.",
+        "yorum": "Bu durum, bir sonraki çeyreğin başlangıcında, hücum süresinin 14 saniye ile yenilenmesi gerektiği anlamına gelir.",
+        "sayfa": 33,
+        "soru": "A1 bir şut girişiminde bulunur ve top havadayken çeyreğin sonu için oyun saati sesli işaretini verir. Top çembere temas eder ve A2 topun kontrolünü kazanır. Bu, her iki takım için bir mola veya oyuncu değişikliği fırsatıdır. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Bir sonraki çeyrekte şut saati 24 saniye olarak başlatılır.",
+          "Şut saati süresi değiştirilmez (aynı kalır).",
+          "Yeni çeyrekte şut saati sıfırlanmaz.",
+          "Bu durum, bir sonraki çeyreğin başlangıcında, hücum süresinin 14 saniye ile yenilenmesi gerektiği anlamına gelir."
+        ],
+        "dogru_cevap": "Bu durum, bir sonraki çeyreğin başlangıcında, hücum süresinin 14 saniye ile yenilenmesi gerektiği anlamına gelir."
+      },
+      {
+        "numara": "18/19-9",
+        "durum": "Bir mola veya oyuncu değişikliği talebi, bir pozisyon sırası durumunun ardından oyunun yeniden başlamasından hemen önce, hakemin topu oyuna sokacak olan oyuncuya vermesinden önce gelir.",
+        "yorum": "Talep dikkate alınmayacaktır. Pozisyon sırası okunun yönü, top oyuna sokulduktan sonra değiştirilecektir.",
+        "sayfa": 33,
+        "soru": "Bir mola veya oyuncu değişikliği talebi, bir pozisyon sırası durumunun ardından oyunun yeniden başlamasından hemen önce, hakemin topu oyuna sokacak olan oyuncuya vermesinden önce gelir. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Mola talebi kabul edilir ve oyun durdurulur.",
+          "Mola talebi sonraki durakta uygulanmak üzere saklanır.",
+          "Pozisyon sırası oku değiştirilmeden önce mola verilir.",
+          "Talep dikkate alınmayacaktır. Pozisyon sırası okunun yönü, top oyuna sokulduktan sonra değiştirilecektir."
+        ],
+        "dogru_cevap": "Talep dikkate alınmayacaktır. Pozisyon sırası okunun yönü, top oyuna sokulduktan sonra değiştirilecektir."
+      },
+      {
+        "numara": "18/19-10",
+        "durum": "B1’in A1’e faul yapması sonucu A1’in 2 serbest atış hakkı vardır. A takımının başantrenörü bir mola ister. İlk serbest atış sırasında B1 diskalifiye edici faul alır. A1, serbest atışı kaçırır.",
+        "yorum": "B1’in diskalifiye edici faulü, bir sonraki mola fırsatını oluşturur. A takımının mola talebi bu fırsatta gerçekleşir. A1’in kullanılmamış serbest atışı ve B1’in diskalifiye edici faul cezasının serbest atışları, mola bitiminde art arda kullanılacaktır.",
+        "sayfa": 33,
+        "soru": "B1’in A1’e faul yapması sonucu A1’in 2 serbest atış hakkı vardır. A takımının başantrenörü bir mola ister. İlk serbest atış sırasında B1 diskalifiye edici faul alır. A1, serbest atışı kaçırır. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Mola talebi hemen karşılanır ve oyun durur.",
+          "B1’in diskalifiye faulü, mola fırsatı oluşturmaz; mola serbest atışlardan sonra verilir.",
+          "B1’in diskalifiye faulü, A takımının mola talebini geçersiz kılar.",
+          "B1’in diskalifiye edici faulü, bir sonraki mola fırsatını oluşturur. A takımının mola talebi bu fırsatta gerçekleşir. A1’in kullanılmamış serbest atışı ve B1’in diskalifiye edici faul cezasının serbest atışları, mola bitiminde art arda kullanılacaktır."
+        ],
+        "dogru_cevap": "B1’in diskalifiye edici faulü, bir sonraki mola fırsatını oluşturur. A takımının mola talebi bu fırsatta gerçekleşir. A1’in kullanılmamış serbest atışı ve B1’in diskalifiye edici faul cezasının serbest atışları, mola bitiminde art arda kullanılacaktır."
+      },
+      {
+        "numara": "18/19-11",
+        "durum": "A takımının başantrenörü bir mola ister. Top canlı hale gelmeden önce A5’e bir teknik faul verilir.",
+        "yorum": "Mola talebi iptal edilir. Serbest atışlardan sonra, oyun B takımı tarafından teknik faulün verildiği en yakın yerden başlatılacaktır.",
+        "sayfa": 33,
+        "soru": "A takımının başantrenörü bir mola ister. Top canlı hale gelmeden önce A5’e bir teknik faul verilir. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Mola talebi iptal edilmez; serbest atışlardan sonra mola kullandırılır.",
+          "Mola talebi, teknik faul atışlarından önce de verilebilir.",
+          "A takımının mola talebi geçerli kalır.",
+          "Mola talebi iptal edilir. Serbest atışlardan sonra, oyun B takımı tarafından teknik faulün verildiği en yakın yerden başlatılacaktır."
+        ],
+        "dogru_cevap": "Mola talebi iptal edilir. Serbest atışlardan sonra, oyun B takımı tarafından teknik faulün verildiği en yakın yerden başlatılacaktır."
+      },
+      {
+        "numara": "18/19-13",
+        "durum": "A takımının başantrenörü bir mola ister. Top canlı hale gelmeden önce A6’ya kurallara aykırı bir davranışı nedeniyle bir teknik faul verilir.",
+        "yorum": "Mola talebi iptal edilir. Serbest atışlardan sonra, oyun B takımı tarafından teknik faulün verildiği en yakın yerden başlatılacaktır.",
+        "sayfa": 33,
+        "soru": "A takımının başantrenörü bir mola ister. Top canlı hale gelmeden önce A6’ya kurallara aykırı bir davranışı nedeniyle bir teknik faul verilir. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Mola talebi iptal edilmez; serbest atışlardan sonra mola kullandırılır.",
+          "Mola talebi teknik faulden bağımsız olarak korunur.",
+          "A takımının mola talebi geçerliliğini sürdürür.",
+          "Mola talebi iptal edilir. Serbest atışlardan sonra, oyun B takımı tarafından teknik faulün verildiği en yakın yerden başlatılacaktır."
+        ],
+        "dogru_cevap": "Mola talebi iptal edilir. Serbest atışlardan sonra, oyun B takımı tarafından teknik faulün verildiği en yakın yerden başlatılacaktır."
+      },
+      {
+        "numara": "18/19-15",
+        "durum": "A1 sakatlanır ve oyun durur. A takımının doktoru sahaya girer ve A1 hemen iyileşir. A1, serbest atış atan oyuncudur. Başantrenörü A1’in atışlarına devam edebileceğini belirtir.",
+        "yorum": "A1 bir yardım almış olarak kabul edilir ve devam edemez. A1’in kalan serbest atışları yedek bir oyuncu tarafından kullanılacaktır. Oyun kaldığı yerden devam edecektir.",
+        "sayfa": 33,
+        "soru": "A1 sakatlanır ve oyun durur. A takımının doktoru sahaya girer ve A1 hemen iyileşir. A1, serbest atış atan oyuncudur. Başantrenörü A1’in atışlarına devam edebileceğini belirtir. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "A1 tedavi görmedi kabul edildiğinden atışlarına devam edebilir.",
+          "A1 iyileştiği için serbest atışlarını kendisi kullanabilir.",
+          "A1 serbest atışları kullandıktan sonra oyunda kalabilir.",
+          "A1 bir yardım almış olarak kabul edilir ve devam edemez. A1’in kalan serbest atışları yedek bir oyuncu tarafından kullanılacaktır. Oyun kaldığı yerden devam edecektir."
+        ],
+        "dogru_cevap": "A1 bir yardım almış olarak kabul edilir ve devam edemez. A1’in kalan serbest atışları yedek bir oyuncu tarafından kullanılacaktır. Oyun kaldığı yerden devam edecektir."
+      }
+    ]
+  },
+  {
+    "madde_no": "23",
+    "baslik": "Saha dışı oyuncu ve saha dışı top",
+    "sayfa": 38,
+    "aciklamalar": [
+      {
+        "numara": "23-1",
+        "metin": "Top, sınır çizgisi üzerinde veya dışında bulunan bir oyuncunun dokunması veya topa temas etmesi nedeniyle saha dışına giderse, bu oyuncu topun saha dışına çıkmasına sebep olan oyuncu olarak kabul edilir.",
+        "sayfa": 38
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "24",
+    "baslik": "Dripling",
+    "sayfa": 39,
+    "aciklamalar": [
+      {
+        "numara": "24-1",
+        "metin": "Bir oyuncunun kasıtlı olarak topu rakibinin ya da kendi arkalığına atması dripling değildir.",
+        "sayfa": 39
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "24-2",
+        "durum": "A1 henüz dripling yapmamıştır ve kasıtlı olarak topu arkalığa doğru sektirir. Daha sonra topu tekrar kontrol eder.",
+        "yorum": "Bu bir dripling ihlali değildir. A1, topu tekrar kontrol ettikten sonra bir dripling daha başlatabilir.",
+        "sayfa": 39,
+        "soru": "A1 henüz dripling yapmamıştır ve kasıtlı olarak topu arkalığa doğru sektirir. Daha sonra topu tekrar kontrol eder. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Bu hareket çift dripling ihlalidir.",
+          "A1, kendi kendine pas vermiş sayılır ve yürüme ihlali çalınır.",
+          "A1 topu yeniden kontrol ederse ihlal olur.",
+          "Bu bir dripling ihlali değildir. A1, topu tekrar kontrol ettikten sonra bir dripling daha başlatabilir."
+        ],
+        "dogru_cevap": "Bu bir dripling ihlali değildir. A1, topu tekrar kontrol ettikten sonra bir dripling daha başlatabilir."
+      }
+    ]
+  },
+  {
+    "madde_no": "25",
+    "baslik": "Yürüme",
+    "sayfa": 40,
+    "aciklamalar": [
+      {
+        "numara": "25-1",
+        "metin": "Sahada uzanarak yatan bir oyuncu topun kontrolünü kazanırsa kurallara uygundur. Topu tutan bir oyuncu sahaya düşerse bu da kurallara uygundur. Bir oyuncu topla zemine uzanırsa ya da topla zemindeyken yuvarlanırsa bu bir yürüme ihlalidir.",
+        "sayfa": 40
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "26",
+    "baslik": "3 saniye",
+    "sayfa": 41,
+    "aciklamalar": [
+      {
+        "numara": "26-1",
+        "metin": "Bir oyuncunun, 3 saniye ihlalinden kaçınmak için dip çizgiden oyun sahasını terk etmesi ve ardından kısıtlamalı alana tekrar girmesi bir ihlaldir.",
+        "sayfa": 41
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "28",
+    "baslik": "8 saniye",
+    "sayfa": 42,
+    "aciklamalar": [
+      {
+        "numara": "28-1",
+        "metin": "Şut saati bir hava atışı durumu nedeniyle durdurulur. Hava atışı durumu sonucunda pozisyon sırasına göre topun oyuna sokulması, kendi geri sahasında topu kontrol eden takımı yeni bir 8 saniyelik hakka sahip kılmaz, eğer bu takım, daha önce topu kendi geri sahasında kontrol ettiyse ve hakemler oyunu durdurduğu anda 8 saniyeyi tamamlayamamışsa.",
+        "sayfa": 42
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "29/50",
+    "baslik": "Şut saati",
+    "sayfa": 44,
+    "aciklamalar": [
+      {
+        "numara": "29/50-1",
+        "metin": "Şut saati periyodunun bitmesine yakın, sayı amacıyla sahadan bir şut atılır ve top havadayken şut saati sesli işaret verir. Top çembere temas ederse oyun devam eder. Top çembere temas etmezse bu bir şut saati ihlalidir.",
+        "sayfa": 44
+      },
+      {
+        "numara": "29/50-19",
+        "metin": "Şut saatinde 6 saniye kala B2, A2’ye bir sportmenlik dışı faul yaptığında A1, kendi ön sahasında dripling yapmaktadır.",
+        "sayfa": 47
+      },
+      {
+        "numara": "29/50-20",
+        "metin": "Eğer oyun, bir hakem tarafından iki takımı ilgilendirmeyen herhangi bir geçerli nedenle durdurulursa ve hakemlerin değerlendirmesine göre rakipler dezavantajlı bir duruma düşerse şut saati kalan süre ile devam edecektir.",
+        "sayfa": 47
+      },
+      {
+        "numara": "29/50-21",
+        "metin": "Dördüncü çeyrekte oyun saatinde 0:25 kala ve skor A 72 – B 72 iken A takımı, kendi ön sahasında topun kontrolünü kazanır.",
+        "sayfa": 47
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "29/50-17",
+        "durum": "Şut saatinde 5 saniye kala, B1’e bir teknik faul ve sonrasında A takımı başantrenörüne de bir teknik faul çalındığında A1 dripling yapmaktadır.",
+        "yorum": "Eşit cezaların iptalinden sonra oyun A takımının topu oyuna sokmasıyla devam edecektir. A takımının şut saatinde 5 saniyesi olacaktır.",
+        "sayfa": 44,
+        "soru": "Şut saatinde 5 saniye kala, B1’e bir teknik faul ve sonrasında A takımı başantrenörüne de bir teknik faul çalındığında A1 dripling yapmaktadır. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Teknik fauller sonrası şut saati 14 saniyeye çıkarılır.",
+          "Karşılıklı teknik faullerde her iki takım da serbest atış kullanır.",
+          "Eşit cezalar olsa da topu B takımı kenardan oyuna sokar.",
+          "Eşit cezaların iptalinden sonra oyun A takımının topu oyuna sokmasıyla devam edecektir. A takımının şut saatinde 5 saniyesi olacaktır."
+        ],
+        "dogru_cevap": "Eşit cezaların iptalinden sonra oyun A takımının topu oyuna sokmasıyla devam edecektir. A takımının şut saatinde 5 saniyesi olacaktır."
+      },
+      {
+        "numara": "29/50-18",
+        "durum": "Şut saati: (a) 16 saniye veya (b) 12 saniye, gösterirken, geri sahasındaki B1, topa bilerek ayağıyla tekme attığında ya da yumruğuyla topa vurduğunda A1, A takımının ön sahasında bulunan A2’ye pas atmaktadır.",
+        "yorum": "Her iki durumda da bu, topa bilerek ayağıyla tekme attığından ya da topa yumruğuyla vurduğundan dolayı B1’in ihlalidir. Oyun, şut saati, (a) 16 saniye (b) 14 saniye gösterecek şekilde A takımı tarafından, ön sahasından topu oyuna sokmasıyla devam edecektir.",
+        "sayfa": 44,
+        "soru": "Şut saati: (a) 16 saniye veya (b) 12 saniye, gösterirken, geri sahasındaki B1, topa bilerek ayağıyla tekme attığında ya da yumruğuyla topa vurduğunda A1, A takımının ön sahasında bulunan A2’ye pas atmaktadır. Bu durumlarda ne yapılmalıdır?",
+        "siklar": [
+          "Her iki durumda da şut saati 14 saniyeye sıfırlanır.",
+          "Her iki durumda da şut saati aynı sürede (16 veya 12 saniye) devam eder.",
+          "(a) durumunda şut saati değişmez, (b) durumunda 24 saniyeye tamamlanır.",
+          "Her iki durumda da bu, topa bilerek ayağıyla tekme attığından ya da topa yumruğuyla vurduğundan dolayı B1’in ihlalidir. Oyun, şut saati, (a) 16 saniye (b) 14 saniye gösterecek şekilde A takımı tarafından, ön sahasından topu oyuna sokmasıyla devam edecektir."
+        ],
+        "dogru_cevap": "Her iki durumda da bu, topa bilerek ayağıyla tekme attığından ya da topa yumruğuyla vurduğundan dolayı B1’in ihlalidir. Oyun, şut saati, (a) 16 saniye (b) 14 saniye gösterecek şekilde A takımı tarafından, ön sahasından topu oyuna sokmasıyla devam edecektir."
+      },
+      {
+        "numara": "29/50-40",
+        "durum": "Şut saatinde 4 saniye kala A1, şut saatinin başa alınması için topu çembere doğru atar. Top çembere temas eder. B1 daha sonra A takımının geri sahasından top saha dışına çıkmadan topa temas eder.",
+        "yorum": "Oyun, A takımının kendi geri sahasından, topun saha dışına çıktığı en yakın yerden topun oyuna sokulmasıyla devam edecektir. A takımının şut saatinde 14 saniyesi olacaktır.",
+        "sayfa": 47,
+        "soru": "Şut saatinde 4 saniye kala A1, şut saatinin başa alınması için topu çembere doğru atar. Top çembere temas eder. B1 daha sonra A takımının geri sahasından top saha dışına çıkmadan topa temas eder. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "A takımının şut saati 24 saniyeye sıfırlanır.",
+          "Şut saati 4 saniye kalmaya devam eder.",
+          "Top geri sahadan oyuna sokulacağı için A takımının 8 saniyede orta sahayı geçmesi gerekir.",
+          "Oyun, A takımının kendi geri sahasından, topun saha dışına çıktığı en yakın yerden topun oyuna sokulmasıyla devam edecektir. A takımının şut saatinde 14 saniyesi olacaktır."
+        ],
+        "dogru_cevap": "Oyun, A takımının kendi geri sahasından, topun saha dışına çıktığı en yakın yerden topun oyuna sokulmasıyla devam edecektir. A takımının şut saatinde 14 saniyesi olacaktır."
+      },
+      {
+        "numara": "29/50-41",
+        "durum": "Şut saatinde 6 saniye kala A1 sayı amacıyla bir şut girişiminde bulunur. Top çembere temas eder ve ardından A2 topun kontrolünü kazanır. Daha sonra B2, A2’ye ribaund sırasında bir faul yapar. Bu B takımının o çeyrekteki üçüncü takım faulüdür.",
+        "yorum": "Oyun A takımı tarafından B2'nin faulünün meydana geldiği en yakın yerden topu oyuna sokmasıyla devam edecektir. A takımının şut saatinde 14 saniyesi olacaktır.",
+        "sayfa": 47,
+        "soru": "Şut saatinde 6 saniye kala A1 sayı amacıyla bir şut girişiminde bulunur. Top çembere temas eder ve ardından A2 topun kontrolünü kazanır. Daha sonra B2, A2’ye ribaund sırasında bir faul yapar. Bu B takımının o çeyrekteki üçüncü takım faulüdür. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Şut saati 24 saniyeye sıfırlanır.",
+          "A2’ye ribaund sırasında faul yapıldığı için 2 serbest atış verilir.",
+          "Şut saati 6 saniye kalmaya devam eder.",
+          "Oyun A takımı tarafından B2'nin faulünün meydana geldiği en yakın yerden topu oyuna sokmasıyla devam edecektir. A takımının şut saatinde 14 saniyesi olacaktır."
+        ],
+        "dogru_cevap": "Oyun A takımı tarafından B2'nin faulünün meydana geldiği en yakın yerden topu oyuna sokmasıyla devam edecektir. A takımının şut saatinde 14 saniyesi olacaktır."
+      }
+    ]
+  },
+  {
+    "madde_no": "30",
+    "baslik": "Geri sahaya dönen top",
+    "sayfa": 53,
+    "aciklamalar": [
+      {
+        "numara": "30-1",
+        "metin": "Havadaki bir oyuncu havaya sıçramadan önce sahada son temas ettiği yerdeki statüsünü korur. Bununla birlikte bir oyuncu ön sahasından sıçradığında ve hala havadayken topa temas ederse, o oyuncunun bulunduğu yer ön sahası olarak kabul edilir.",
+        "sayfa": 53
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "31",
+    "baslik": "Sayıya yönelen top ve müdahale",
+    "sayfa": 56,
+    "aciklamalar": [
+      {
+        "numara": "31-1",
+        "metin": "Sayı amacıyla yapılan bir şut ya da bir serbest atış girişimi sırasında top çemberin üzerindeyken bir oyuncunun sepete doğru alttan uzanıp topa dokunması bir müdahale ihlalidir.",
+        "sayfa": 56
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "33",
+    "baslik": "Temas: Genel prensipler",
+    "sayfa": 60,
+    "aciklamalar": [
+      {
+        "numara": "33-1",
+        "metin": "Silindir prensibi savunma veya hücum oyuncusu olup olmadıklarına bakılmaksızın tüm oyuncular için geçerlidir.",
+        "sayfa": 60
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "34",
+    "baslik": "Kişisel faul",
+    "sayfa": 62,
+    "aciklamalar": [
+      {
+        "numara": "34-1",
+        "metin": "Oyun saati dördüncü çeyrekte veya her uzatmada 2:00 veya daha az gösterdiğinde ve top hakemin elinde ya da topu oyuna sokacak olan oyuncunun kullanımındadır. Eğer bu anda savunma takımı tarafından, hücum takımının bir oyuncusuna bir faul yapılırsa, bu faul, hücum eden oyuncunun atış halinde olup olmadığına bakılmaksızın, 2 serbest atışla cezalandırılır.",
+        "sayfa": 62
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "35",
+    "baslik": "Çift faul",
+    "sayfa": 64,
+    "aciklamalar": [
+      {
+        "numara": "35-1",
+        "metin": "Bir faul kişisel, sportmenlik dışı, diskalifiye edici veya teknik faul olabilir. Çift faul olarak kabul edilebilmesi için her iki faulün de aynı 2 rakip arasındaki oyuncunun faulü olması, aynı cezayı gerektirmesi ve fauller arasında zaman ilişkisi olmaması gerekir.",
+        "sayfa": 64
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "36",
+    "baslik": "Teknik faul",
+    "sayfa": 66,
+    "aciklamalar": [
+      {
+        "numara": "36-1",
+        "metin": "Bir oyuncuya tekrarlanması halinde bir teknik faulle sonuçlanabilecek hareketinden ya da davranışından dolayı resmi bir uyarı verilir. Bu uyarı aynı zamanda o takımın başantrenörü için de geçerlidir.",
+        "sayfa": 66
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "37",
+    "baslik": "Sportmenlik dışı faul",
+    "sayfa": 74,
+    "aciklamalar": [
+      {
+        "numara": "37-1",
+        "metin": "Rakibin sepetine doğru ilerleyen bir hücum oyuncuyla birlikte top ve sepet arasında başka bir savunma oyuncu bulunmuyorsa, ilerleyişini sürdüren bu oyuncuya bir rakip tarafından arkadan veya yandan yapılan temas sportmenlik dışı fauldür.",
+        "sayfa": 74
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "38",
+    "baslik": "Diskalifiye edici faul",
+    "sayfa": 76,
+    "aciklamalar": [
+      {
+        "numara": "38-1",
+        "metin": "Diskalifiye edilen herhangi bir kişinin, artık takım sırasına oturmasına izin verilmez. Bu nedenle, herhangi bir sportmenlik dışı davranış nedeniyle artık takım sırasına oturmasına izin verilmeyen kişiye tekrar böyle bir uyarı yapılamaz.",
+        "sayfa": 76
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "39",
+    "baslik": "Kavga",
+    "sayfa": 78,
+    "aciklamalar": [
+      {
+        "numara": "39-1",
+        "metin": "Kavgadan sonra tüm cezalar birbirini iptal ederse, kavga başladığında topu kontrol etmekte olan ya da topa sahip olma hakkı olan takıma, kavga başladığında topun olduğu en yakın yerden topu oyuna sokma hakkı verilecektir. Takımın şut saatinde, oyun durdurulduğunda kalan süresi kadar zamanı olacaktır.",
+        "sayfa": 78
+      },
+      {
+        "numara": "39-3",
+        "metin": "Kendisi, birinci yardımcı antrenör (eğer biri ya da her ikisi de düzeni sağlamak ve korumak için hakemlere yardım etmezlerse), yedek oyuncu, oyun dışı oyuncusu ya da delegasyon üyesi, bir kavga sırasında takım sıra bölgesini terk ettiği için diskalifiye edilirse, o takımın başantrenörüne tek bir teknik faul verilecektir. Teknik faul, başantrenörün diskalifiye edilmesini içeriyorsa, maç kağıdına 'D2' olarak kaydedilecektir.",
+        "sayfa": 78
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "39-2",
+        "durum": "A takımı, oyun sahasında kavgaya yol açabilecek bir durum meydana geldiğinde, aşağıda belirtilen süre boyunca topu kontrol etmiştir: (a) 20 saniye, (b) 5 saniye. Hakemler, takım sıra bölgesini terk ettikleri için her bir takımdan 2 yedek oyuncuyu diskalifiye eder.",
+        "yorum": "Oyun, kavga başlamadan önce topu kontrol eden A takımı tarafından, kavga başladığında topun olduğu en yakın yerden topu oyuna sokmasıyla devam edecektir. Şut saatinde: (a) 4 saniyeyle, (b) 19 saniyeyle.",
+        "sayfa": 78,
+        "soru": "A takımı, oyun sahasında kavgaya yol açabilecek bir durum meydana geldiğinde, aşağıda belirtilen süre boyunca topu kontrol etmiştir: (a) 20 saniye, (b) 5 saniye. Hakemler, takım sıra bölgesini terk ettikleri için her bir takımdan 2 yedek oyuncuyu diskalifiye eder. Bu durumlarda ne yapılmalıdır?",
+        "siklar": [
+          "Her iki durumda da şut saati 14 saniye olarak ayarlanır.",
+          "Mücadele sonrası şut saati 24 saniyeye sıfırlanır.",
+          "Kavga nedeniyle oyun hakem atışıyla yeniden başlatılır.",
+          "Oyun, kavga başlamadan önce topu kontrol eden A takımı tarafından, kavga başladığında topun olduğu en yakın yerden topu oyuna sokmasıyla devam edecektir. Şut saatinde: (a) 4 saniyeyle, (b) 19 saniyeyle."
+        ],
+        "dogru_cevap": "Oyun, kavga başlamadan önce topu kontrol eden A takımı tarafından, kavga başladığında topun olduğu en yakın yerden topu oyuna sokmasıyla devam edecektir. Şut saatinde: (a) 4 saniyeyle, (b) 19 saniyeyle."
+      },
+      {
+        "numara": "39-4",
+        "durum": "Bir kavga durumunda A6 oyun sahasına girer. A6 diskalifiye edilecektir.",
+        "yorum": "A6’nın diskalifiyesi kendisine 'D' olarak ve kalan faul boşlukları ise 'F' olarak doldurularak kaydedilecektir. A takımı başantrenörüne 'B2' olarak kaydedilen bir teknik faul verilecektir. Herhangi bir B takımı oyuncusu kimse dizilmeden 2 serbest atış kullanacaktır.",
+        "sayfa": 78,
+        "soru": "Bir kavga durumunda A6 oyun sahasına girer. A6 diskalifiye edilecektir. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "A6'ya sadece teknik faul verilir; oyundan atılmaz.",
+          "Başantrenöre herhangi bir ceza verilmez.",
+          "Serbest atışlar, oyuncular çizgide dizilerek kullanılır.",
+          "A6’nın diskalifiyesi kendisine 'D' olarak ve kalan faul boşlukları ise 'F' olarak doldurularak kaydedilecektir. A takımı başantrenörüne 'B2' olarak kaydedilen bir teknik faul verilecektir. Herhangi bir B takımı oyuncusu kimse dizilmeden 2 serbest atış kullanacaktır."
+        ],
+        "dogru_cevap": "A6’nın diskalifiyesi kendisine 'D' olarak ve kalan faul boşlukları ise 'F' olarak doldurularak kaydedilecektir. A takımı başantrenörüne 'B2' olarak kaydedilen bir teknik faul verilecektir. Herhangi bir B takımı oyuncusu kimse dizilmeden 2 serbest atış kullanacaktır."
+      },
+      {
+        "numara": "39-7",
+        "durum": "A takımı başantrenörü, takım sıra bölgesini terk eder ve B1'i sert bir şekilde iterek oyun sahasındaki bir kavgaya aktif olarak karışır.",
+        "yorum": "A takımı başantrenörüne, takım sırası bölgesini terk ettiği ve hakemlere düzeni tekrar sağlamak ve korumak için yardımcı olmadığından dolayı maç kağıdına 'D2' olarak kaydedilecek ve başantrenörün olası oyundan diskalifiye edilmesine sayılmayacaktır. Herhangi bir B takımı oyuncusu kimse dizilmeden 2 serbest atış kullanacaktır.",
+        "sayfa": 78,
+        "soru": "A takımı başantrenörü, takım sıra bölgesini terk eder ve B1'i sert bir şekilde iterek oyun sahasındaki bir kavgaya aktif olarak karışır. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Başantrenöre yalnızca teknik faul verilir, oyundan ihraç edilmez.",
+          "Başantrenöre D1 (normal diskalifiye) cezası verilir.",
+          "Bu durumda her iki takıma da birer teknik faul verilir.",
+          "A takımı başantrenörüne, takım sırası bölgesini terk ettiği ve hakemlere düzeni tekrar sağlamak ve korumak için yardımcı olmadığından dolayı maç kağıdına 'D2' olarak kaydedilecek ve başantrenörün olası oyundan diskalifiye edilmesine sayılmayacaktır. Herhangi bir B takımı oyuncusu kimse dizilmeden 2 serbest atış kullanacaktır."
+        ],
+        "dogru_cevap": "A takımı başantrenörüne, takım sırası bölgesini terk ettiği ve hakemlere düzeni tekrar sağlamak ve korumak için yardımcı olmadığından dolayı maç kağıdına 'D2' olarak kaydedilecek ve başantrenörün olası oyundan diskalifiye edilmesine sayılmayacaktır. Herhangi bir B takımı oyuncusu kimse dizilmeden 2 serbest atış kullanacaktır."
+      }
+    ]
+  },
+  {
+    "madde_no": "42",
+    "baslik": "Özel durumlar",
+    "sayfa": 80,
+    "aciklamalar": [
+      {
+        "numara": "42-1",
+        "metin": "Aynı duran saat periyodu sırasında yönetilecek birçok cezayı içeren özel durumlarda hakemler, hangi cezaların uygulanacağını ve hangi cezaların iptal edileceğini belirlerken, diğer takıma avantaj vermemek ve suçlu takımı ödüllendirmemek için ellerinden geleni yapmalıdırlar.",
+        "sayfa": 80
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "43",
+    "baslik": "Serbest atışlar",
+    "sayfa": 84,
+    "aciklamalar": [
+      {
+        "numara": "43-1",
+        "metin": "Serbest atış ribaund yerlerinde bulunan oyuncular, bu boşluklarda dönüşümlü olarak yer alma hakkına sahip olacaktır. Serbest atış ribaund yerlerinde olmayan oyuncular, serbest atışı kullanan oyuncunun çemberi hedef almasıyla birlikte boyalı alanın dışında (sahanın 3 sayı bölgesinde) durabilirler.",
+        "sayfa": 84
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "44",
+    "baslik": "Düzeltilebilir hatalar",
+    "sayfa": 85,
+    "aciklamalar": [
+      {
+        "numara": "44-1",
+        "metin": "Bir hatanın düzeltilebilmesi için hata, hakemler, masa görevlileri ya da varsa komiser tarafından, hatanın ardından oyun saati başladıktan sonraki ilk ölü topu takip eden ilk canlı top atışı öncesinde fark edilmelidir.",
+        "sayfa": 85
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "Ek B",
+    "baslik": "Maç Kağıdı – Diskalifiye edici fauller",
+    "sayfa": 89,
+    "aciklamalar": [
+      {
+        "numara": "B-1",
+        "metin": "Çeşitli kişilerin diskalifiye edici faul örnekleri: 1. Sadece başantrenör diskalifiye edilirse 2. Sadece birinci yardımcı antrenör diskalifiye edilirse 3. Hem başantrenör hem de birinci yardımcı antrenör diskalifiye edilirse 4. Bir yedek oyuncu diskalifiye edilirse 5. İki yedek oyuncu ve bir oyun dışı oyuncu diskalifiye edilirse 6. Bir delegasyon üyesi diskalifiye edilirse 7. İki delegasyon üyesi diskalifiye edilirse",
+        "sayfa": 89
+      },
+      {
+        "numara": "B-2",
+        "metin": "Bir kavga sırasında takım sıra bölgesini terk eden delegasyon üyesinin diskalifiye edilmesiyle birlikte, kişisel centilmenlik dışı davranışı veya herhangi başka bir nedenle başantrenöre verilen teknik faul örnekleri: 1. Birinci çeyrekte, bir delegasyon üyesinin diskalifiyesiyle sonuçlanan bir kavga durumu oluşur. Üçüncü çeyrekte, kişisel centilmenlik dışı davranışı nedeniyle başantrenöre bir teknik faul verilir. 2. Birinci çeyrekte, bir delegasyon üyesinin diskalifiyesiyle sonuçlanan bir kavga durumu oluşur ve ...",
+        "sayfa": 89
+      }
+    ],
+    "ornekler": []
+  },
+  {
+    "madde_no": "Ek F",
+    "baslik": "Anlık Tekrar Sistemi (IRS) Kullanımı – Başantrenörlerin İtiraz Hakkı",
+    "sayfa": 91,
+    "aciklamalar": [
+      {
+        "numara": "F-1.2",
+        "metin": "Başantrenörlerin İtiraz Hakkı (Coach's Challenge) kapsamında incelenebilecek oyun durumu ve süre kısıtlamaları:",
+        "sayfa": 108
+      }
+    ],
+    "ornekler": [
+      {
+        "numara": "F-1.2",
+        "durum": "A1’in sahadan sayı amacıyla şut girişimi başarılıdır, bu sırada oyun saati oyunun sonu için sesli işaretini verir. Onaylanmış bir Anlık Tekrar Sistemi donanımı mevcut değildir. B takımı menajeri, maçı kazandığını düşünerek takımını soyunma odasına götürür.",
+        "yorum": "Hakemler, Anlık Tekrar Sistemi donanımı olmadığı için şutun zamanında atılıp atılmadığını kontrol edemezler. Maçın sonucu geçerli olur. Bu durum, hakem raporunda belirtilecektir.",
+        "sayfa": 91,
+        "soru": "A1’in sahadan sayı amacıyla şut girişimi başarılıdır, bu sırada oyun saati oyunun sonu için sesli işaretini verir. Onaylanmış bir Anlık Tekrar Sistemi donanımı mevcut değildir. B takımı menajeri, maçı kazandığını düşünerek takımını soyunma odasına götürür. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Hakemler, atışın süresinde olup olmadığını kestiremezse sayıyı iptal etmelidir.",
+          "IRS olmasa da hakemler masa görevlileriyle görüşüp kararı değiştirebilir.",
+          "Maç sonucu netleşmediği için tekrar maç yapılmasına karar verilir.",
+          "Hakemler, Anlık Tekrar Sistemi donanımı olmadığı için şutun zamanında atılıp atılmadığını kontrol edemezler. Maçın sonucu geçerli olur. Bu durum, hakem raporunda belirtilecektir."
+        ],
+        "dogru_cevap": "Hakemler, Anlık Tekrar Sistemi donanımı olmadığı için şutun zamanında atılıp atılmadığını kontrol edemezler. Maçın sonucu geçerli olur. Bu durum, hakem raporunda belirtilecektir."
+      },
+      {
+        "numara": "F-2.2",
+        "durum": "A1’in sahadan bir şut girişimi başarılıdır. Yaklaşık olarak aynı anda oyun saati çeyreğin sonu için sesli işaretini verir. Hakemler şutun oyun süresi içerisinde atılıp atılmadığından emin olamazlar ve Anlık Tekrar Sistemini kullanmaya karar verirler.",
+        "yorum": "Hakemler, pozisyonu incelemek üzere masaya doğru hareket ettikleri anda oyun süresi henüz sona ermemişse, top canlı olmadığı halde hakemler bu pozisyonu inceleyebilirler.",
+        "sayfa": 91,
+        "soru": "A1’in sahadan bir şut girişimi başarılıdır. Yaklaşık olarak aynı anda oyun saati çeyreğin sonu için sesli işaretini verir. Hakemler şutun oyun süresi içerisinde atılıp atılmadığından emin olamazlar ve Anlık Tekrar Sistemini kullanmaya karar verirler. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Hakemler sürenin bitiminden sonra pozisyonu inceleyemez.",
+          "Top canlı değilse Anlık Tekrar Sistemi kullanılamaz.",
+          "Bu pozisyonda hakemler, kararı değiştirmeden oyunu sürdürür.",
+          "Hakemler, pozisyonu incelemek üzere masaya doğru hareket ettikleri anda oyun süresi henüz sona ermemişse, top canlı olmadığı halde hakemler bu pozisyonu inceleyebilirler."
+        ],
+        "dogru_cevap": "Hakemler, pozisyonu incelemek üzere masaya doğru hareket ettikleri anda oyun süresi henüz sona ermemişse, top canlı olmadığı halde hakemler bu pozisyonu inceleyebilirler."
+      },
+      {
+        "numara": "F-2.4",
+        "durum": "Dördüncü çeyrekte oyun saatinde 3:23 kala top saha dışına çıkar. Hakemler topu A takımına verirler. A takımı bir mola ister. B takımı başantrenörü kararın doğru olmadığına inanır ve uygun prosedürü kullanarak Başantrenörlerin İtiraz Hakkı talep eder.",
+        "yorum": "B takımına Başantrenörlerin İtiraz Hakkı verilecektir. Anlık Tekrar Sistemi incelemesi, Başantrenörlerin İtiraz Hakkı durumunda oyunun herhangi bir anında saha dışı ihlali kararının doğru olup olmadığını karar vermek için kullanılabilir. Mola süresi, inceleme bitene ve hakem kesin kararını bildirene kadar başlamayacaktır. A takımının mola talebi, hakem son Anlık Tekrar Sistemi kararını bildirene kadar inceleme sırasında herhangi bir zamanda geri çekilebilir.",
+        "sayfa": 109,
+        "soru": "Dördüncü çeyrekte oyun saatinde 3:23 kala top saha dışına çıkar. Hakemler topu A takımına verirler. A takımı bir mola ister. B takımı başantrenörü kararın doğru olmadığına inanır ve uygun prosedürü kullanarak Başantrenörlerin İtiraz Hakkı talep eder. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "B takımına itiraz hakkı tanınmaz.",
+          "Hakemler pozisyonu incelemeden oyunu devam ettirir.",
+          "Mola süresi, hakemler pozisyonu incelerken işlemeye devam eder.",
+          "B takımına Başantrenörlerin İtiraz Hakkı verilecektir. Anlık Tekrar Sistemi incelemesi, Başantrenörlerin İtiraz Hakkı durumunda oyunun herhangi bir anında saha dışı ihlali kararının doğru olup olmadığına karar vermek için kullanılabilir. Mola süresi, inceleme bitene ve hakem kesin kararını bildirene kadar başlamayacaktır. A takımının mola talebi, hakem son Anlık Tekrar Sistemi kararını bildirene kadar inceleme sırasında herhangi bir zamanda geri çekilebilir."
+        ],
+        "dogru_cevap": "B takımına Başantrenörlerin İtiraz Hakkı verilecektir. Anlık Tekrar Sistemi incelemesi, Başantrenörlerin İtiraz Hakkı durumunda oyunun herhangi bir anında saha dışı ihlali kararının doğru olup olmadığına karar vermek için kullanılabilir. Mola süresi, inceleme bitene ve hakem kesin kararını bildirene kadar başlamayacaktır. A takımının mola talebi, hakem son Anlık Tekrar Sistemi kararını bildirene kadar inceleme sırasında herhangi bir zamanda geri çekilebilir."
+      },
+      {
+        "numara": "F-2.6",
+        "durum": "Dördüncü çeyrekte oyun saatinde 6:36 kala top saha dışına gider. Hakemler topu A takımına verirler. A takımı başantrenörü, hakemlerin kararının yanlış olduğuna inanır ve Başantrenörlerin İtiraz Hakkını kullanmak ister.",
+        "yorum": "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Hakemler her iki takımı da dezavantajlı duruma düşürmeden oyunu derhal durduracaktır. Anlık Tekrar Sistemi incelemesi A1'in şutunda atışın 2 sayılık bölgeden yapıldığını tespit ederlerse oyun A 82 – B 80 skoruyla devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden yapıldığını gösterirse oyun A 83 – B 80 skoruyla devam edecektir. Her iki durumda da oyun B takımı tarafından B1'in top dripling yaptığı sırada oyunun durdurulduğu en yakın yerden oyun saatinde kalan süre ile topun oyuna sokulmasıyla devam edecektir.",
+        "sayfa": 108,
+        "soru": "Dördüncü çeyrekte oyun saatinde 6:36 kala top saha dışına gider. Hakemler topu A takımına verirler. A takımı başantrenörü, hakemlerin kararının yanlış olduğuna inanır ve Başantrenörlerin İtiraz Hakkını kullanmak ister. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Hakemler itiraz talebine rağmen oyunu hemen durdurmaz.",
+          "Eğer A1'in şutu 2 puan ise, itiraz hakkı boşa gider ve A takımı bir mola hakkını kaybeder.",
+          "A1'in şutu 3 puan olarak sayılsa bile maç uzatmaya gider.",
+          "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Hakemler her iki takımı da dezavantajlı duruma düşürmeden oyunu derhal durduracaktır. Anlık Tekrar Sistemi incelemesi A1'in şutunda atışın 2 sayılık bölgeden yapıldığını tespit ederlerse oyun A 82 – B 80 skoruyla devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden yapıldığını gösterirse oyun A 83 – B 80 skoruyla devam edecektir. Her iki durumda da oyun B takımı tarafından B1'in top dripling yaptığı sırada oyunun durdurulduğu en yakın yerden oyun saatinde kalan süre ile topun oyuna sokulmasıyla devam edecektir."
+        ],
+        "dogru_cevap": "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Hakemler her iki takımı da dezavantajlı duruma düşürmeden oyunu derhal durduracaktır. Anlık Tekrar Sistemi incelemesi A1'in şutunda atışın 2 sayılık bölgeden yapıldığını tespit ederlerse oyun A 82 – B 80 skoruyla devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden yapıldığını gösterirse oyun A 83 – B 80 skoruyla devam edecektir. Her iki durumda da oyun B takımı tarafından B1'in top dripling yaptığı sırada oyunun durdurulduğu en yakın yerden oyun saatinde kalan süre ile topun oyuna sokulmasıyla devam edecektir."
+      },
+      {
+        "numara": "F-4.6",
+        "durum": "Dördüncü çeyrekte oyun saatinde 8 saniye kala A1’in 2 sayılık şut girişimi başarılı olur. Maçın skoru A 82 – B 80'dir. B takımının dip çizgiden topu oyuna sokmasından sonra A takımı başantrenörü A1'in sayısının 3 sayı olarak verilmesi gerektiğine inanır ve bir Başantrenörlerin İtiraz Hakkı talep eder. Hakemler talebi kabul ettiklerinde B1, başarılı 2 sayı atmıştır ve oyun saatinde 1 saniye kalmıştır. Maçın skoru artık A 82 – B 82’dir.",
+        "yorum": "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Oyun hemen durdurulacaktır. Eğer Anlık Tekrar Sistemi incelemesi A1'in şutunun 2 sayılık bölgeden atıldığını tespit ederse oyun A 82 – B 82 skoruyla, A takımının topu kendi dip çizgisinin gerisinden oyuna sokmasıyla ve oyun saatinde 1 saniyeyle devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden atıldığını gösterirse oyun A 83 – B 82 skoruyla, A takımının topu kendi dip çizgisinden oyuna sokmasıyla ve oyun saatinde 1 saniyeyle devam edecektir.",
+        "sayfa": 108,
+        "soru": "Dördüncü çeyrekte oyun saatinde 8 saniye kala A1’in 2 sayılık şut girişimi başarılı olur. Maçın skoru A 82 – B 80'dir. B takımının dip çizgiden topu oyuna sokmasından sonra A takımı başantrenörü A1'in sayısının 3 sayı olarak verilmesi gerektiğine inanır ve bir Başantrenörlerin İtiraz Hakkı talep eder. Hakemler talebi kabul ettiklerinde B1, başarılı 2 sayı atmıştır ve oyun saatinde 1 saniye kalmıştır. Maçın skoru artık A 82 – B 82’dir. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Hakemler oyunu durdurmaz, itirazı maç sonunda değerlendirir.",
+          "B1'in attığı basket, itiraz talebi nedeniyle iptal edilir.",
+          "Eğer A1'in şutu 3 puansa bile kalan 1 saniye oynanmalıdır.",
+          "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Oyun hemen durdurulacaktır. Eğer Anlık Tekrar Sistemi incelemesi A1'in şutunun 2 sayılık bölgeden atıldığını tespit ederse oyun A 82 – B 82 skoruyla, A takımının topu kendi dip çizgisinin gerisinden oyuna sokmasıyla ve oyun saatinde 1 saniyeyle devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden atıldığını gösterirse oyun A 83 – B 82 skoruyla, A takımının topu kendi dip çizgisinden oyuna sokmasıyla ve oyun saatinde 1 saniyeyle devam edecektir."
+        ],
+        "dogru_cevap": "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Oyun hemen durdurulacaktır. Eğer Anlık Tekrar Sistemi incelemesi A1'in şutunun 2 sayılık bölgeden atıldığını tespit ederse oyun A 82 – B 82 skoruyla, A takımının topu kendi dip çizgisinin gerisinden oyuna sokmasıyla ve oyun saatinde 1 saniyeyle devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden atıldığını gösterirse oyun A 83 – B 82 skoruyla, A takımının topu kendi dip çizgisinden oyuna sokmasıyla ve oyun saatinde 1 saniyeyle devam edecektir."
+      },
+      {
+        "numara": "F-4.7",
+        "durum": "Dördüncü çeyrekte oyun saatinde 7 saniye kala A1’in 2 sayılık şut girişimi başarılı olur. Maçın skoru A 82 – B 80'dir. B takımının dip çizgiden topu oyuna sokmasından sonra A takımı başantrenörü A1'in sayısının 3 sayı olarak verilmesi gerektiğine inanır ve bir Başantrenörlerin İtiraz Hakkı talep eder. Hakemler talebi kabul ettiklerinde B1, başarılı bir 2 sayılık atış girişiminde bulunur ve top havadayken oyun saati maçın sonu için sesli işaretini verir. Maçın skoru artık A 82 – B 82’dir.",
+        "yorum": "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Hakemler maç kağıdını imzalamadan önce Anlık Tekrar Sistemi incelemesini yapacaklardır. Eğer inceleme A1'in şutunun 2 sayılık bölgeden atıldığını gösterirse oyun, pozisyon sırası hakkına göre bir uzatma oynanarak devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden atıldığını gösterirse oyun A 83 – B 82 skoruyla, A takımının topu kendi dip çizgisinden oyuna sokmasıyla ve oyun saatinde 1 saniyeyle devam edecektir.",
+        "sayfa": 108,
+        "soru": "Dördüncü çeyrekte oyun saatinde 7 saniye kala A1’in 2 sayılık şut girişimi başarılı olur. Maçın skoru A 82 – B 80'dir. B takımının dip çizgiden topu oyuna sokmasından sonra A takımı başantrenörü A1'in sayısının 3 sayı olarak verilmesi gerektiğine inanır ve bir Başantrenörlerin İtiraz Hakkı talep eder. Hakemler talebi kabul ettiklerinde B1, başarılı bir 2 sayılık atış girişiminde bulunur ve top havadayken oyun saati maçın sonu için sesli işaretini verir. Maçın skoru artık A 82 – B 82’dir. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "Hakemler, maç süresi dolduğu için Anlık Tekrar Sistemi'ni kullanamaz.",
+          "İnceleme sonucunda A1'in şutu 2 puansa maç berabere biter (uzatma yoktur).",
+          "A1'in şutu 3 puan olsa bile maç uzatmaya gider.",
+          "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Hakemler maç kağıdını imzalamadan önce Anlık Tekrar Sistemi incelemesini yapacaklardır. Eğer inceleme A1'in şutunun 2 sayılık bölgeden atıldığını gösterirse oyun, pozisyon sırası hakkına göre bir uzatma oynanarak devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden atıldığını gösterirse oyun A 83 – B 82 skoruyla, A takımının topu kendi dip çizgisinden oyuna sokmasıyla ve oyun saatinde 1 saniyeyle devam edecektir."
+        ],
+        "dogru_cevap": "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Hakemler maç kağıdını imzalamadan önce Anlık Tekrar Sistemi incelemesini yapacaklardır. Eğer inceleme A1'in şutunun 2 sayılık bölgeden atıldığını gösterirse oyun, pozisyon sırası hakkına göre bir uzatma oynanarak devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden atıldığını gösterirse oyun A 83 – B 82 skoruyla, A takımının topu kendi dip çizgisinden oyuna sokmasıyla ve oyun saatinde 1 saniyeyle devam edecektir."
+      },
+      {
+        "numara": "F-4.8",
+        "durum": "Dördüncü çeyrekte oyun saatinde 6 saniye kala A1’in 2 sayılık şut girişimi başarılı olur. Maçın skoru A 82 – B 80'dir. Sonrasında B1, top havadayken başarılı bir 2 sayılık atış girişiminde bulunur ve top havadayken oyun saati maçın sonu için sesli işaretini verir. Maçın skoru artık A 82 – B 82’dir. A1'in sayısının 3 sayı olarak verilmesi gerektiğine inanır ve uygun prosedürü kullanarak hemen bir Başantrenörlerin İtiraz Hakkı talep eder.",
+        "yorum": "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Başhakem, yapılan atışın 2 veya 3 sayı olarak sayılıp sayılamayacağına karar vermek için oyunun herhangi bir anında Başantrenörlerin İtiraz Hakkı için Anlık Tekrar Sistemi incelemesini kullanabilir. Eğer inceleme A1'in şutunun 2 sayılık bölgeden atıldığını tespit ederse oyun, pozisyon sırası hakkına göre bir uzatma oynanarak devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden atıldığını gösterirse maçın sonucu A 83 – B 82 ile sona ermiştir.",
+        "sayfa": 108,
+        "soru": "Dördüncü çeyrekte oyun saatinde 6 saniye kala A1’in 2 sayılık şut girişimi başarılı olur. Maçın skoru A 82 – B 80'dir. Sonrasında B1, top havadayken başarılı bir 2 sayılık atış girişiminde bulunur ve top havadayken oyun saati maçın sonu için sesli işaretini verir. Maçın skoru artık A 82 – B 82’dir. A1'in sayısının 3 sayı olarak verilmesi gerektiğine inanır ve uygun prosedürü kullanarak hemen bir Başantrenörlerin İtiraz Hakkı talep eder. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "A takımının itiraz talebi maç sonunda değerlendirilmeli, hemen oyun durdurulmamalıdır.",
+          "A1'in şutu 3 puan olsa bile maç uzatmaya gitmelidir.",
+          "Hakemler pozisyonu incelemeyi reddedebilir.",
+          "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Başhakem, yapılan atışın 2 veya 3 sayı olarak sayılıp sayılamayacağına karar vermek için oyunun herhangi bir anında Başantrenörlerin İtiraz Hakkı için Anlık Tekrar Sistemi incelemesini kullanabilir. Eğer inceleme A1'in şutunun 2 sayılık bölgeden atıldığını tespit ederse oyun, pozisyon sırası hakkına göre bir uzatma oynanarak devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden atıldığını gösterirse maçın sonucu A 83 – B 82 ile sona ermiştir."
+        ],
+        "dogru_cevap": "A takımına Başantrenörlerin İtiraz Hakkı verilecektir. Başhakem, yapılan atışın 2 veya 3 sayı olarak sayılıp sayılamayacağına karar vermek için oyunun herhangi bir anında Başantrenörlerin İtiraz Hakkı için Anlık Tekrar Sistemi incelemesini kullanabilir. Eğer inceleme A1'in şutunun 2 sayılık bölgeden atıldığını tespit ederse oyun, pozisyon sırası hakkına göre bir uzatma oynanarak devam edecektir. Eğer inceleme A1'in şutunun 3 sayılık bölgeden atıldığını gösterirse maçın sonucu A 83 – B 82 ile sona ermiştir."
+      },
+      {
+        "numara": "F-4.9",
+        "durum": "Dördüncü çeyrekte oyun saatinde 6:36 kala top saha dışına gider. Hakemler topu A takımına verirler. A takımı bir mola ister. B takımı başantrenörü kararın doğru olmadığına inanır ve uygun prosedürü kullanarak Başantrenörlerin İtiraz Hakkı talep eder.",
+        "yorum": "B takımına Başantrenörlerin İtiraz Hakkı verilecektir. Anlık Tekrar Sistemi incelemesi, Başantrenörlerin İtiraz Hakkı durumunda oyunun herhangi bir anında saha dışı ihlali kararının doğru olup olmadığını karar vermek için kullanılabilir. Mola süresi, inceleme bitene ve hakem kesin kararını bildirene kadar başlamayacaktır. A takımının mola talebi, hakem son Anlık Tekrar Sistemi kararını bildirene kadar inceleme sırasında herhangi bir zamanda geri çekilebilir.",
+        "sayfa": 109,
+        "soru": "Dördüncü çeyrekte oyun saatinde 6:36 kala top saha dışına gider. Hakemler topu A takımına verirler. A takımı bir mola ister. B takımı başantrenörü kararın doğru olmadığına inanır ve uygun prosedürü kullanarak Başantrenörlerin İtiraz Hakkı talep eder. Bu durumda ne yapılmalıdır?",
+        "siklar": [
+          "B takımının itiraz talebi reddedilir.",
+          "Hakemler pozisyonu incelemez ve kararı değiştirmez.",
+          "Mola süresi, hakem inceleme yaparken de işlemeye devam eder.",
+          "B takımına Başantrenörlerin İtiraz Hakkı verilecektir. Anlık Tekrar Sistemi incelemesi, Başantrenörlerin İtiraz Hakkı durumunda oyunun herhangi bir anında saha dışı ihlali kararının doğru olup olmadığını karar vermek için kullanılabilir. Mola süresi, inceleme bitene ve hakem kesin kararını bildirene kadar başlamayacaktır. A takımının mola talebi, hakem son Anlık Tekrar Sistemi kararını bildirene kadar inceleme sırasında herhangi bir zamanda geri çekilebilir."
+        ],
+        "dogru_cevap": "B takımına Başantrenörlerin İtiraz Hakkı verilecektir. Anlık Tekrar Sistemi incelemesi, Başantrenörlerin İtiraz Hakkı durumunda oyunun herhangi bir anında saha dışı ihlali kararının doğru olup olmadığını karar vermek için kullanılabilir. Mola süresi, inceleme bitene ve hakem kesin kararını bildirene kadar başlamayacaktır. A takımının mola talebi, hakem son Anlık Tekrar Sistemi kararını bildirene kadar inceleme sırasında herhangi bir zamanda geri çekilebilir."
+      }
+    ]
+  }
+]
