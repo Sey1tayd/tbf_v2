@@ -196,20 +196,20 @@ def main():
     if CustomUser.objects.filter(username='S3Y1T').exists():
         print("Superuser 'S3Y1T' zaten mevcut, güncelleniyor...")
         superuser = CustomUser.objects.get(username='S3Y1T')
-        superuser.set_password('Aydin')
+        superuser.set_password('Aydin2580')
         superuser.is_superuser = True
         superuser.is_staff = True
         superuser.save()
-        print("Superuser güncellendi!")
+        print("Superuser güncellendi! (Şifre: Aydin2580)")
     else:
         try:
             superuser = CustomUser.objects.create_superuser(
                 username='S3Y1T',
-                password='Aydin',
+                password='Aydin2580',
                 first_name='Seyit',
                 last_name='Aydin'
             )
-            print("Superuser 'S3Y1T' oluşturuldu!")
+            print("Superuser 'S3Y1T' oluşturuldu! (Şifre: Aydin2580)")
         except Exception as e:
             print(f"Superuser oluşturulurken hata: {e}")
 
