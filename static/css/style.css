@@ -974,10 +974,10 @@ body {
         width: 100%;
         flex: 1 1 100%;
         min-width: 0;
+        max-width: 100%;
         box-sizing: border-box;
-        min-width: 0;
         justify-content: center;
-        padding: 10px 8px;
+        padding: 10px 12px;
         font-size: 0.9em;
         opacity: 1;
         transform: none;
@@ -985,10 +985,13 @@ body {
         white-space: normal;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        word-break: break-word;
         text-align: center;
         line-height: 1.4;
         align-items: center;
         min-height: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     
     .topbar-menu .topbar-link {
